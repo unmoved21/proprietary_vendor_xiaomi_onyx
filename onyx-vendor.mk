@@ -1753,7 +1753,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.media.c2-mi-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2-mi-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/audiohalservice_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiohalservice_qti.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -1806,7 +1805,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.audio-adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.audio-adsprpc-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag_userdebug.rc \
@@ -2294,34 +2292,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/hw/libsoundtriggerhal.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libsoundtriggerhal.qti.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_aptx.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_ble.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_bundle.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_lhdc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_lhdc.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_mihc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_mihc.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_pcm_plugin.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmclient.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagmipcservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmipcservice.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libaudiochargerlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiochargerlistener.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libcustomva_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustomva_intf.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfmpal.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libhfp_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp_pal.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libhotword_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhotword_intf.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libpaleventnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpaleventnotifier.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libpalipcservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalipcservice.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libsndcardparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndcardparser.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libvui_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvui_intf.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt430.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt430.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt43180.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt43180.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt43270.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt43270.bin \
@@ -2542,11 +2518,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@aidl-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
-    audio.bluetooth.default \
     audio.bluetooth_qti.default \
     audio.primary.default \
-    audio.r_submix.default \
-    audio.usb.default \
     camera.qcom.sm8750 \
     camera.qcom \
     com.qti.chi.offline \
@@ -2664,6 +2637,8 @@ PRODUCT_PACKAGES += \
     libXMFaceHeadBodyTrack \
     lib_AIVC_decoder \
     lib_AIVC_encoder \
+    lib_bt_lhdc \
+    lib_bt_mihc \
     libadm \
     libadreno_app_profiles \
     libadreno_compiler_cl \
@@ -3867,7 +3842,6 @@ PRODUCT_PACKAGES += \
     qtiradio-saidl.xml \
     secure_element-service.xml \
     snapdragon_services.xml \
-    soundtrigger.qti.xml \
     vendor.dolby.media.c2-default-service-dax.xml \
     vendor.qti.camera.provider.xml \
     vendor.qti.diag.hal.service.xml \
@@ -3922,7 +3896,6 @@ PRODUCT_PACKAGES += \
     SoterProvisioningTool \
     adpl \
     adsprpcd \
-    audioadsprpcd \
     batterysecret \
     cdsprpcd \
     cnd \
@@ -3944,7 +3917,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2-mi-service \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
-    audiohalservice.qti \
     qcrilNrd \
     qvrservice \
     vendor.dolby.dms.service \
