@@ -1547,7 +1547,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     vendor/xiaomi/onyx/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/xiaomi/onyx/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
+    vendor/xiaomi/onyx/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.qcc.vendor_qcc.xml \
@@ -3457,7 +3457,6 @@ PRODUCT_PACKAGES += \
     libmmrtpencoder \
     libqcc \
     libqcc_file_agent_sys \
-    libqccdme \
     libqccfileservice \
     libqesdk_ndk_platform.qti \
     libwfdavenhancements \
@@ -3481,7 +3480,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qccsyshal@1.1 \
-    vendor.qti.hardware.qccsyshal@1.2-halimpl \
     vendor.qti.hardware.qccsyshal@1.2 \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
@@ -3490,6 +3488,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccsyshal_aidl-V1-ndk \
+    vendor.qti.qccsyshal_aidl-halimpl \
     vendor.qti.qccvndhal_aidl-V1-ndk \
     anc.hal \
     com.qti.actuator.onyx_aac_imx882_gt9764ber_wide_ii_actuator \
@@ -3810,6 +3809,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.micharge.xml \
     vendor.xiaomi.hardware.quickcamera.xml \
     vendor.xiaomi.hardware.vibratorfeature.service.xml \
+    vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
     android.hardware.authsecret-service.nxp.xml \
     android.hardware.security.keymint-service.strongbox.xml \
@@ -3939,7 +3939,7 @@ PRODUCT_PACKAGES += \
     wifidisplayhalservice \
     xtra-daemon \
     xtwifi-client \
-    qccsyshal@1.2-service \
+    qccsyshal_aidl-service \
     wfdservice64 \
     android.hardware.authsecret-service.nxp-qti \
     android.hardware.nqnfc-service.nxp \
