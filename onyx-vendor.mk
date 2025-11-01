@@ -1765,7 +1765,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/ozonotify-1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ozonotify-1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
@@ -2414,7 +2413,6 @@ PRODUCT_PACKAGES += \
     libmicamvendorcustom \
     camx.device-impl \
     camx.provider-impl \
-    com.android.ozoaudio.notify-V1-ndk \
     com.qti.camx.chiiqutils \
     com.qti.chifeaturecompatibility \
     com.qti.chiusecaseselector \
@@ -2642,7 +2640,6 @@ PRODUCT_PACKAGES += \
     libaudioplatformconverter.qti \
     libaudioserviceexampleimpl \
     libav_miwnsencoder \
-    libav_ozoencoder \
     libbacklight-calib \
     libbase64 \
     libbatching \
@@ -2941,10 +2938,6 @@ PRODUCT_PACKAGES += \
     libopestriping \
     libops \
     libos \
-    libozoaudio \
-    libozoaudioutils \
-    libozocapability \
-    libozotensorflowlite_c \
     libpal_net_if \
     libpalclient \
     libpdmapper \
@@ -3283,7 +3276,6 @@ PRODUCT_PACKAGES += \
     libhwdapaidl \
     libloudnessenhanceraidl \
     libmiwndnsprocessingaidl \
-    libozoaidl \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -3812,7 +3804,6 @@ PRODUCT_PACKAGES += \
     mapper.qti.xml \
     media_c2_mi.xml \
     mwqem-saidl.xml \
-    ozonotify-1.0.xml \
     qasr_vintf.xml \
     qcrilhook-saidl.xml \
     qesdk-manager.xml \
@@ -3901,7 +3892,6 @@ PRODUCT_PACKAGES += \
     qvrservice \
     vendor.dolby.dms.service \
     vendor.dolby.media.c2-default-service-dax \
-    vendor.ozoaudio.notify@1.0-service \
     vendor.qti.camera.provider-service_64 \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore-service \

@@ -4245,31 +4245,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.android.ozoaudio.notify-V1-ndk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/com.android.ozoaudio.notify-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.qti.camx.chiiqutils",
     owner: "xiaomi",
     strip: {
@@ -11838,38 +11813,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libav_ozoencoder",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libav_ozoencoder.so",
-            ],
-            shared_libs: [
-                "libozoaudio",
-                "libozoaudioutils",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libbinder_ndk",
-                "com.android.ozoaudio.notify-V1-ndk",
-                "libozocapability",
                 "libc++",
                 "libc",
                 "libm",
@@ -21159,107 +21102,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libos.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libozoaudio",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libozoaudio.so",
-            ],
-            shared_libs: [
-                "libozotensorflowlite_c",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libozoaudioutils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libozoaudioutils.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libozocapability",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libozocapability.so",
-            ],
-            shared_libs: [
-                "libozoaudio",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libozotensorflowlite_c",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libozotensorflowlite_c.so",
             ],
             shared_libs: [
                 "liblog",
@@ -31323,26 +31165,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/soundfx/libmiwndnsprocessingaidl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libozoaidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libozoaidl.so",
             ],
         },
     },
@@ -45431,15 +45253,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "ozonotify-1.0.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/ozonotify-1.0.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "qasr_vintf.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/qasr_vintf.xml",
@@ -46904,37 +46717,6 @@ cc_prebuilt_binary {
                 "libavservices_minijail",
                 "libbinder",
                 "libcodec2_store_dolby",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.ozoaudio.notify@1.0-service",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.ozoaudio.notify@1.0-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "libutils",
-                "liblog",
-                "com.android.ozoaudio.notify-V1-ndk",
-                "libozocapability",
                 "libc++",
                 "libc",
                 "libm",
