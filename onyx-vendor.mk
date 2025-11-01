@@ -1573,7 +1573,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/Hapticsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Hapticsconfig.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ITVDD.txt:$(TARGET_COPY_OUT_VENDOR)/etc/ITVDD.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.2_0.1__eai_4.8_enpu_v5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.2_0.1__eai_4.8_enpu_v5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/ffv_models/ffv__7.1.1_0.1__eai_4.8_enpu_v5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__7.1.1_0.1__eai_4.8_enpu_v5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/ffv_models/ffv__7.1.1_0.2__eai_4.8_enpu_v5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__7.1.1_0.2__eai_4.8_enpu_v5.pmd \
@@ -2017,13 +2016,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/stub_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/stub_audio_policy_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sysconfig/cacert-oem-defined-uids.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/cacert-oem-defined-uids.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
