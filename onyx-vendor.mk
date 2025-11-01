@@ -1547,7 +1547,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     vendor/xiaomi/onyx/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/xiaomi/onyx/proprietary/system_ext/etc/init/hypsys_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hypsys_system.rc \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
@@ -1704,7 +1703,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/hypsys_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hypsys_vendor.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
@@ -1770,7 +1768,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys.core-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys.core-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
@@ -2838,7 +2835,7 @@ PRODUCT_PACKAGES += \
     libmis_plugin_dummy \
     libmis_plugin_his \
     libmisfpsop \
-    libmisight_vendor \
+    libmisight \
     libmisops \
     libmisoundfx_aidl_ext \
     libmisoundsa \
@@ -3409,7 +3406,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.aon-V1-ndk \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
-    vendor.xiaomi.hardware.blackbox-V1-ndk_vendor \
     vendor.xiaomi.hardware.camera.injection-V1-ndk \
     vendor.xiaomi.hardware.camera.injection-client \
     vendor.xiaomi.hardware.camera.injection-service \
@@ -3419,13 +3415,11 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.micharge-V2-ndk \
-    vendor.xiaomi.hardware.misys.common-V3-ndk_vendor \
-    vendor.xiaomi.hardware.misys.core-V1-ndk_vendor \
     vendor.xiaomi.hardware.mlipay-V1-ndk_platform \
     vendor.xiaomi.hw.touchfeature-V1-ndk \
     vendor.xiaomi.sensor.camera-V1-ndk \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
-    xiaomi.system.hypsys.common-V1-ndk_vendor \
+    xiaomi.system.hypsys.common-V1-ndk \
     chre_qsh_shim \
     libCalculator_skel \
     libDspIOProxy_skel \
@@ -3458,12 +3452,10 @@ PRODUCT_PACKAGES += \
     libdiag_system \
     libimscamera_jni \
     libimsmedia_jni \
-    libmisight \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
-    libmqsas \
     libqcc \
     libqcc_file_agent_sys \
     libqccdme \
@@ -3486,7 +3478,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsinkinterface \
     libwfduibcsrc \
     libwfduibcsrcinterface \
-    miui.mqsas.native-cpp \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
@@ -3501,12 +3492,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk \
-    vendor.xiaomi.hardware.misys.common-V1-ndk \
-    vendor.xiaomi.hardware.misys.common-V3-ndk \
-    vendor.xiaomi.hardware.misys.core-V1-ndk \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    xiaomi.system.hypsys.common-V1-ndk \
     anc.hal \
     com.qti.actuator.onyx_aac_imx882_gt9764ber_wide_ii_actuator \
     com.qti.actuator.onyx_ofilm_imx882_gt9764ber_wide_i_actuator \
@@ -3773,7 +3758,6 @@ PRODUCT_PACKAGES += \
     imsdcservice-saidl.xml \
     manifest_audio_qti_services.xml \
     manifest_audiocorehal_default.xml \
-    manifest_blackbox.xml \
     manifest_btaudiocoreservices_qti.xml \
     mapper.qti.xml \
     media_c2_mi.xml \
@@ -3825,11 +3809,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.aidlbgservice-service.xml \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     vendor.xiaomi.hardware.micharge.xml \
-    vendor.xiaomi.hardware.misys.common.xml \
-    vendor.xiaomi.hardware.misys.core.xml \
     vendor.xiaomi.hardware.quickcamera.xml \
     vendor.xiaomi.hardware.vibratorfeature.service.xml \
-    manifest_hypsys_system.xml \
     vendor.qti.qesdsys.service.xml \
     android.hardware.authsecret-service.nxp.xml \
     android.hardware.security.keymint-service.strongbox.xml \
@@ -3887,9 +3868,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.sla.service@2.0-service \
     vendor.xiaomi.hardware.displayfeature_aidl-service \
     vendor.xiaomi.hardware.micharge-service \
-    vendor.xiaomi.hardware.misys.core-service \
     vendor.xiaomi.hardware.vibratorfeature.service \
-    hypsys_vendor \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
@@ -3961,7 +3940,6 @@ PRODUCT_PACKAGES += \
     wifidisplayhalservice \
     xtra-daemon \
     xtwifi-client \
-    hypsys_system \
     qccsyshal@1.2-service \
     wfdservice64 \
     android.hardware.authsecret-service.nxp-qti \
