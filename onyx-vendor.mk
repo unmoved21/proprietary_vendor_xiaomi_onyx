@@ -23,10 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/sku_tuna/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_tuna/mixer_paths_overlay_static.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/sku_tuna/mixer_paths_tuna_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_tuna/mixer_paths_tuna_mtp.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/sku_tuna/resourcemanager_tuna_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_tuna/resourcemanager_tuna_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/audio_policy_engine_configuration_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration_mi.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/audio_policy_engine_default_stream_volumes_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes_mi.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/audio_policy_engine_product_strategies_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies_mi.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/audio_policy_engine_stream_volumes_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/backend_conf_sia.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf_sia.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/20_det_human_hair_wide2_1222_iter_40000_quant_npu.minn:$(TARGET_COPY_OUT_ODM)/etc/camera/20_det_human_hair_wide2_1222_iter_40000_quant_npu.minn \
@@ -1640,10 +1636,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_configuration.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_perf.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/camera/cameraopt_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_vendor.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
