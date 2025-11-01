@@ -1633,7 +1633,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
     vendor/xiaomi/onyx/proprietary/vendor/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_perf.json \
