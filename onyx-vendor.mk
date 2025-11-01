@@ -1639,22 +1639,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_cdp/CDP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_cdp/CDP_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_cdp/CDP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_cdp/CDP_workspaceFileXml.qwsp \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_mtp/MTP_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_mtp/MTP_workspaceFileXml.qwsp \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_qrd/QRD_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_qrd/QRD_workspaceFileXml.qwsp \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_qrd_sku2/QRD_sun_sku2_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_qrd_sku2/QRD_sun_sku2_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/sun_qrd_sku2/QRD_sun_sku2_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_qrd_sku2/QRD_sun_sku2_workspaceFileXml.qwsp \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna7_mtp/MTP_tuna7_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna7_mtp/MTP_tuna7_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna7_mtp/MTP_tuna7_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna7_mtp/MTP_tuna7_workspaceFileXml.qwsp \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna_cdp/CDP_tuna_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna_cdp/CDP_tuna_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna_cdp/CDP_tuna_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna_cdp/CDP_tuna_workspaceFileXml.qwsp \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna_mtp/MTP_tuna_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna_mtp/MTP_tuna_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna_mtp/MTP_tuna_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna_mtp/MTP_tuna_workspaceFileXml.qwsp \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna_qrd/QRD_tuna_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna_qrd/QRD_tuna_acdb_cal.acdb \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/tuna_qrd/QRD_tuna_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna_qrd/QRD_tuna_workspaceFileXml.qwsp \
     vendor/xiaomi/onyx/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/audio_module_config_primary.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_module_config_primary.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/audio_effects.conf \
