@@ -3460,6 +3460,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.camera.synthetic-impl \
     vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
     vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
+    vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.micharge-V2-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk_platform \
     vendor.xiaomi.hw.touchfeature-V1-ndk \
@@ -3538,6 +3539,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk \
+    anc.hal \
     com.qti.actuator.onyx_aac_imx882_gt9764ber_wide_ii_actuator \
     com.qti.actuator.onyx_ofilm_imx882_gt9764ber_wide_i_actuator \
     com.qti.eeprom.onyx_aac_imx882_gt24p128f_wide_ii_eeprom \
@@ -3627,6 +3629,8 @@ PRODUCT_PACKAGES += \
     ese_weaver \
     consumerir.qcom \
     displayfeature.default \
+    fingerprint.goodix_fod.default \
+    fingerprint.jiiov.default \
     libAncHumanPreviewBokeh \
     libIntelligentFocus \
     libMiDispDevManager \
@@ -3664,6 +3668,7 @@ PRODUCT_PACKAGES += \
     libeyecare \
     libflatmode \
     libfpsmonitor \
+    libgf_hal \
     libhandgesture.arcsoft \
     libhistprocess \
     libjc_keymint-nxp \
