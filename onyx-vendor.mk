@@ -2303,9 +2303,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/hw/libsoundtriggerhal.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libsoundtriggerhal.qti.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_aptx.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_ble.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_bundle.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_lhdc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_lhdc.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/lib_bt_mihc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_mihc.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_pcm_plugin.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmclient.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagmipcservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmipcservice.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libaudiochargerlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiochargerlistener.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libcustomva_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustomva_intf.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfmpal.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libhfp_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp_pal.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libhotword_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhotword_intf.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libpaleventnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpaleventnotifier.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libpalipcservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalipcservice.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libsndcardparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndcardparser.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libvui_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvui_intf.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt430.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt430.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt43180.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt43180.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt43270.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt43270.bin \
@@ -2541,7 +2566,6 @@ PRODUCT_PACKAGES += \
     libaudiocorehal.qti \
     libaudioeffecthal.qti \
     libqtigatekeeper \
-    libsoundtriggerhal.qti \
     mapper.qti \
     mbedtls_qti \
     vendor.qti.hardware.alarm-impl \
@@ -2649,37 +2673,20 @@ PRODUCT_PACKAGES += \
     libXMFaceHeadBodyTrack \
     lib_AIVC_decoder \
     lib_AIVC_encoder \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
-    lib_bt_lhdc \
-    lib_bt_mihc \
     libadm \
     libadreno_app_profiles \
     libadreno_compiler_cl \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
-    libagm_compress_plugin \
-    libagm_mixer_plugin \
-    libagm_pcm_plugin \
-    libagmclient \
-    libagmipcservice \
-    libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
     libaodoptfeature \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libar-pal \
     libarmemlog \
-    libats \
     libaudio_log_utils \
-    libaudiochargerlistener \
     libaudiocloudctrl \
     libaudioplatformconverter.qti \
     libaudioserviceexampleimpl \
@@ -2688,7 +2695,6 @@ PRODUCT_PACKAGES += \
     libbacklight-calib \
     libbase64 \
     libbatching \
-    libbatterylistener \
     libbitmlengine \
     libbitmlenginev2 \
     libbluetooth_audio_session_aidl_qti \
@@ -2765,7 +2771,6 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libcppbor_onyx \
-    libcustomva_intf \
     libcv_common \
     libdapparamstorage \
     libdataitems \
@@ -2814,7 +2819,6 @@ PRODUCT_PACKAGES += \
     libfastmessage \
     libfeutils \
     libfilefinder \
-    libfmpal \
     libgame_enhance \
     libgdtap \
     libgeofencing \
@@ -2838,10 +2842,8 @@ PRODUCT_PACKAGES += \
     libhdrdynamic \
     libhdrdynamicootf \
     libhdrvivid \
-    libhfp_pal \
     libhistogram \
     libhme \
-    libhotword_intf \
     libhta_hexagon_runtime_qnn \
     libhta_hexagon_runtime_snpe \
     libhwliqinterface2 \
@@ -2895,8 +2897,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmapdata_api \
     libmapperutils \
     libmcs \
@@ -2996,8 +2996,6 @@ PRODUCT_PACKAGES += \
     libozotensorflowlite_c \
     libpal_net_if \
     libpalclient \
-    libpaleventnotifier \
-    libpalipcservice \
     libpdmapper \
     libpdnotifier \
     libperfconfig \
@@ -3168,7 +3166,6 @@ PRODUCT_PACKAGES += \
     libsn300u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
-    libsndcardparser \
     libsnpe_config \
     libsns_device_mode_stub \
     libsns_direct_channel_stub \
@@ -3227,7 +3224,6 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     libvui_dmgr \
     libvui_dmgr_client \
-    libvui_intf \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -3380,7 +3376,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-V7-ndk \
     vendor.qti.gnss-service \
     vendor.qti.hardware.ListenSoundModelAidl-V1-ndk \
-    vendor.qti.hardware.agm-V1-ndk \
     vendor.qti.hardware.alarm-V1-ndk \
     vendor.qti.hardware.bluetooth.xpanprovider-V1-ndk \
     vendor.qti.hardware.bluetooth_sar-V1-ndk \
@@ -3417,8 +3412,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.hexlp-V1-ndk \
     vendor.qti.hardware.minkipcbinder-V1-ndk \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
-    vendor.qti.hardware.pal-V1-ndk \
-    vendor.qti.hardware.paleventnotifier-V2-ndk \
     vendor.qti.hardware.perf2-V1-ndk \
     vendor.qti.hardware.power.powermodule-V1-ndk \
     vendor.qti.hardware.qasr-V2-ndk \
