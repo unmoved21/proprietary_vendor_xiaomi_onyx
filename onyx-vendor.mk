@@ -3724,7 +3724,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element.xml \
     android.hardware.security.keymint-service-qti.xml \
     atfwd-saidl.xml \
-    audioeffectservice_qti.xml \
     bluetooth-finder.xml \
     bluetooth_hci.xml \
     bluetooth_sar.xml \
@@ -3740,7 +3739,6 @@ PRODUCT_PACKAGES += \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
     manifest_audio_qti_services.xml \
-    manifest_audiocorehal_default.xml \
     manifest_btaudiocoreservices_qti.xml \
     mapper.qti.xml \
     media_c2_mi.xml \
