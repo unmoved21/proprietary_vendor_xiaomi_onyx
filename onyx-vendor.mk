@@ -1794,7 +1794,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
     vendor/xiaomi/onyx/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/xiaomi/onyx/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
@@ -1807,17 +1806,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_mi_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mi_c2_audio.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_performance_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v0.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_performance_tuna_v0_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v0_without_dvenc.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_performance_tuna_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v1.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v0.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_tuna_v0_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v0_without_dvenc.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_tuna_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v1.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_profiles_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_tuna_v0.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_profiles_tuna_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_tuna_v1.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_tuna_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_tuna_v0/video_system_specs.json \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_tuna_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_tuna_v1/video_system_specs.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
