@@ -2773,7 +2773,6 @@ PRODUCT_PACKAGES += \
     libeai_fixed \
     libeai_float \
     libecoengine \
-    libeffects \
     libengineplugin \
     libesesbprovision \
     libeva \
