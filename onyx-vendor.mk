@@ -2319,6 +2319,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
+    android.hardware.bluetooth.audio-impl_prebuilt \
     android.media.audio.common.types-V6-ndk \
     btaudio_offload_if \
     com.mi.node.fd \
@@ -2652,6 +2653,7 @@ PRODUCT_PACKAGES += \
     libappclassifier \
     libar-pal \
     libarmemlog \
+    libaudio_aidl_conversion_common_ndk_prebuilt \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioplatformconverter.qti \
@@ -2663,6 +2665,7 @@ PRODUCT_PACKAGES += \
     libbatching \
     libbitmlengine \
     libbitmlenginev2 \
+    libbluetooth_audio_session_aidl_prebuilt \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
