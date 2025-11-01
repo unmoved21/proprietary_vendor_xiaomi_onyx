@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/acdbdata/Fluence/Fluence_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/Fluence_workspaceFileXml.qwsp \
     vendor/xiaomi/onyx/proprietary/odm/etc/acdbdata/Fluence/sia91xx/Fluence_acdb_cal_sia.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/sia91xx/Fluence_acdb_cal_sia.acdb \
     vendor/xiaomi/onyx/proprietary/odm/etc/acdbdata/Fluence/sia91xx/Fluence_workspaceFileXml_sia.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/sia91xx/Fluence_workspaceFileXml_sia.qwsp \
-    vendor/xiaomi/onyx/proprietary/odm/etc/audio/audio_module_config_primary.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_module_config_primary.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/hrtf5c.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/hrtf5c.bin \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/mis_head.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head.bin \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/mis_head_spatial.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head_spatial.bin \
@@ -24,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/sku_tuna/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_tuna/mixer_paths_overlay_static.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/sku_tuna/mixer_paths_tuna_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_tuna/mixer_paths_tuna_mtp.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/sku_tuna/resourcemanager_tuna_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_tuna/resourcemanager_tuna_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/audio/sku_tuna_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_tuna_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio_policy_engine_configuration_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio_policy_engine_default_stream_volumes_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio_policy_engine_product_strategies_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies_mi.xml \
@@ -1641,57 +1639,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/audio_module_config_primary.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_module_config_primary.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/audio_effects.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/audio_effects.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/audio_effects_config.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/audio_effects_config_stub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/audio_effects_config_stub.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/audio_policy_configuration.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/mixer_paths_kera_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/mixer_paths_kera_cdp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/mixer_paths_kera_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/mixer_paths_kera_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/mixer_paths_kera_mtp_qmp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/mixer_paths_kera_mtp_qmp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/mixer_paths_kera_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/mixer_paths_kera_qrd.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/resourcemanager_kera_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/resourcemanager_kera_cdp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/resourcemanager_kera_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/resourcemanager_kera_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera/resourcemanager_kera_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera/resourcemanager_kera_qrd.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_kera_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kera_qssi/audio_policy_configuration.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/adsp_sleep_monitor.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/audio_effects.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/audio_effects.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/audio_effects_config.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/audio_effects_config_stub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/audio_effects_config_stub.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/audio_policy_configuration.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/mixer_paths_sun_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/mixer_paths_sun_cdp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/mixer_paths_sun_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/mixer_paths_sun_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/mixer_paths_sun_mtp_wsa883x_qmp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/mixer_paths_sun_mtp_wsa883x_qmp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/mixer_paths_sun_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/mixer_paths_sun_qrd.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/mixer_paths_sun_qrd_sku2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/mixer_paths_sun_qrd_sku2.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/quasar_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/quasar_config.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/resourcemanager_sun_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/resourcemanager_sun_cdp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/resourcemanager_sun_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/resourcemanager_sun_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/resourcemanager_sun_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/resourcemanager_sun_qrd.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun/resourcemanager_sun_qrd_sku2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun/resourcemanager_sun_qrd_sku2.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_sun_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_sun_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects_config_stub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects_config_stub.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_policy_configuration.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/mixer_paths_tuna7_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/mixer_paths_tuna7_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/mixer_paths_tuna_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/mixer_paths_tuna_cdp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/mixer_paths_tuna_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/mixer_paths_tuna_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/mixer_paths_tuna_mtp_qmp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/mixer_paths_tuna_mtp_qmp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/mixer_paths_tuna_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/mixer_paths_tuna_qrd.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/quasar_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/quasar_config.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/resourcemanager_tuna7_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/resourcemanager_tuna7_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/resourcemanager_tuna_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/resourcemanager_tuna_cdp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/resourcemanager_tuna_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/resourcemanager_tuna_mtp.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/resourcemanager_tuna_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/resourcemanager_tuna_qrd.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/vendor_audio_interfaces.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/vendor_audio_interfaces.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
