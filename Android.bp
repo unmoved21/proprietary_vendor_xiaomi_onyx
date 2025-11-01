@@ -72,6 +72,32 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.security.keymint-V3-ndk_prebuilt",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.security.keymint-V3-ndk_prebuilt.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.security.secureclock-V1-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "android.hardware.vibrator-V1-ndk_prebuilt",
     owner: "xiaomi",
     strip: {
@@ -24837,7 +24863,7 @@ cc_prebuilt_library_shared {
                 "libkeymaster_messages",
                 "android.hardware.keymaster@4.0",
                 "android.hardware.keymaster@4.1",
-                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.keymint-V3-ndk_prebuilt",
                 "android.hardware.security.rkp-V3-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
@@ -42715,7 +42741,7 @@ cc_prebuilt_library_shared {
                 "libjc_keymint_transport_nxp",
                 "libbinder_ndk",
                 "libmemunreachable",
-                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.keymint-V3-ndk_prebuilt",
                 "android.hardware.secure_element-V1-ndk",
                 "libc++",
                 "libc",
@@ -42741,7 +42767,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libjc_keymint_transport_nxp.so",
             ],
             shared_libs: [
-                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.keymint-V3-ndk_prebuilt",
                 "android.se.omapi-V1-ndk",
                 "android.hardware.secure_element-V1-ndk",
                 "libbase",
@@ -42778,7 +42804,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "android.hardware.security.rkp-V3-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
-                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.keymint-V3-ndk_prebuilt",
                 "android.se.omapi-V1-ndk",
                 "lib_android_keymaster_keymint_utils",
                 "libcppbor_onyx",
@@ -46495,7 +46521,7 @@ cc_prebuilt_binary {
                 "android.hardware.keymaster@4.0",
                 "libqtikeymint",
                 "libcrypto",
-                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.keymint-V3-ndk_prebuilt",
                 "android.hardware.security.rkp-V3-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
@@ -49538,7 +49564,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libutils",
                 "libhidlbase",
-                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.keymint-V3-ndk_prebuilt",
                 "android.hardware.secure_element-V1-ndk",
                 "libc++",
                 "libc",
