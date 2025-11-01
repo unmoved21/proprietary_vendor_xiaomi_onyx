@@ -1638,10 +1638,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd \
     vendor/xiaomi/onyx/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects_config.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/audio_effects_config_stub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/audio_effects_config_stub.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/sku_tuna/quasar_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_tuna/quasar_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio/vendor_audio_interfaces.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/vendor_audio_interfaces.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
@@ -3294,17 +3291,11 @@ PRODUCT_PACKAGES += \
     libvpt_action_recognition \
     libworker_pool \
     sensors.qsh \
-    libaudiopreprocessing \
     libbundleaidl \
-    libbundlewrapper \
     libdlbvolaidl \
-    libdownmix \
     libdownmixaidl \
     libdynamicsprocessingaidl \
-    libdynproc \
-    libeffectproxy \
     libhwdapaidl \
-    libldnhncr \
     libloudnessenhanceraidl \
     libmiwndnsprocessingaidl \
     libozoaidl \
@@ -3313,11 +3304,9 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libquasar \
     libreverbaidl \
-    libreverbwrapper \
     libspatializeraidl \
     libswgamedapaidl \
     libswspatializeraidl \
-    libvisualizer \
     libvisualizeraidl \
     libvolumelistener \
     vendor.display.color@1.0 \
