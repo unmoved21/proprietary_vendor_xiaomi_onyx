@@ -1772,7 +1772,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qti.ufs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.ufs.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
@@ -1807,7 +1806,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/snapdragon_services.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snapdragon_services.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/trace.debug-sun.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trace.debug-sun.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2-default-service-dax.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
@@ -3980,39 +3978,22 @@ PRODUCT_PACKAGES += \
     ims_rtp_daemon \
     imsdaemon \
     init.class_main \
-    init.crda \
-    init.kernel.extra_free_kbytes \
     init.kernel.init_boot-memory \
     init.kernel.post_boot-memory \
     init.kernel.post_boot-tuna \
-    init.kernel.post_boot-tuna_1_3_2_1 \
-    init.kernel.post_boot-tuna_2_2_2_1 \
-    init.kernel.post_boot-tuna_2_3_1_1 \
-    init.kernel.post_boot-tuna_2_3_2_0 \
     init.kernel.post_boot-tuna_default_2_3_2_1 \
     init.kernel.post_boot \
-    init.mdm \
     init.qcom.class_core \
-    init.qcom.coex \
     init.qcom.early_boot \
-    init.qcom.efs.sync \
     init.qcom.post_boot \
-    init.qcom.sdio \
     init.qcom.sensors \
     init.qcom \
     init.qcrild \
     init.qti.display_boot \
-    init.qti.kernel.debug-tuna \
-    init.qti.kernel.debug \
-    init.qti.kernel.early_debug-tuna \
-    init.qti.kernel.early_debug \
     init.qti.kernel \
-    init.qti.keymaster \
     init.qti.media \
     init.qti.qcv \
     init.qti.write \
-    init.qvrd.usb_mtu_set \
-    init.xrcommd.usb_mtu_set \
     irsc_util \
     ks \
     loc_launcher \

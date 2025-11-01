@@ -47846,22 +47846,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.crda",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.crda.sh",
-    filename: "init.crda.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.extra_free_kbytes",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.extra_free_kbytes.sh",
-    filename: "init.kernel.extra_free_kbytes.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.kernel.init_boot-memory",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.kernel.init_boot-memory.sh",
@@ -47886,38 +47870,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.kernel.post_boot-tuna_1_3_2_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_1_3_2_1.sh",
-    filename: "init.kernel.post_boot-tuna_1_3_2_1.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-tuna_2_2_2_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_2_2_1.sh",
-    filename: "init.kernel.post_boot-tuna_2_2_2_1.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-tuna_2_3_1_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_1_1.sh",
-    filename: "init.kernel.post_boot-tuna_2_3_1_1.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-tuna_2_3_2_0",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_2_0.sh",
-    filename: "init.kernel.post_boot-tuna_2_3_2_0.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.kernel.post_boot-tuna_default_2_3_2_1",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_default_2_3_2_1.sh",
@@ -47934,26 +47886,10 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.mdm",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.mdm.sh",
-    filename: "init.mdm.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.class_core",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qcom.class_core.sh",
     filename: "init.qcom.class_core.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.coex",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.coex.sh",
-    filename: "init.qcom.coex.sh",
     soc_specific: true,
 }
 
@@ -47966,26 +47902,10 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.efs.sync",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.efs.sync.sh",
-    filename: "init.qcom.efs.sync.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.post_boot",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
     filename: "init.qcom.post_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.sdio",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.sdio.sh",
-    filename: "init.qcom.sdio.sh",
     soc_specific: true,
 }
 
@@ -48022,50 +47942,10 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qti.kernel.debug-tuna",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug-tuna.sh",
-    filename: "init.qti.kernel.debug-tuna.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.debug",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug.sh",
-    filename: "init.qti.kernel.debug.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug-tuna",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug-tuna.sh",
-    filename: "init.qti.kernel.early_debug-tuna.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug.sh",
-    filename: "init.qti.kernel.early_debug.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qti.kernel",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.kernel.sh",
     filename: "init.qti.kernel.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.keymaster",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.keymaster.sh",
-    filename: "init.qti.keymaster.sh",
     soc_specific: true,
 }
 
@@ -48090,22 +47970,6 @@ sh_binary {
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.write.sh",
     filename: "init.qti.write.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qvrd.usb_mtu_set",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qvrd.usb_mtu_set.sh",
-    filename: "init.qvrd.usb_mtu_set.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.xrcommd.usb_mtu_set",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.xrcommd.usb_mtu_set.sh",
-    filename: "init.xrcommd.usb_mtu_set.sh",
     soc_specific: true,
 }
 
