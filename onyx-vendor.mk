@@ -4037,16 +4037,7 @@ PRODUCT_PACKAGES += \
     init.crda \
     init.kernel.extra_free_kbytes \
     init.kernel.init_boot-memory \
-    init.kernel.post_boot-kera \
-    init.kernel.post_boot-kera_2_3_1 \
-    init.kernel.post_boot-kera_2_4_0 \
-    init.kernel.post_boot-kera_3_2_1 \
-    init.kernel.post_boot-kera_default_3_4_1 \
     init.kernel.post_boot-memory \
-    init.kernel.post_boot-sun \
-    init.kernel.post_boot-sun_5_2 \
-    init.kernel.post_boot-sun_6_0 \
-    init.kernel.post_boot-sun_default_6_2 \
     init.kernel.post_boot-tuna \
     init.kernel.post_boot-tuna_1_3_2_1 \
     init.kernel.post_boot-tuna_2_2_2_1 \
@@ -4065,12 +4056,8 @@ PRODUCT_PACKAGES += \
     init.qcom \
     init.qcrild \
     init.qti.display_boot \
-    init.qti.kernel.debug-kera \
-    init.qti.kernel.debug-sun \
     init.qti.kernel.debug-tuna \
     init.qti.kernel.debug \
-    init.qti.kernel.early_debug-kera \
-    init.qti.kernel.early_debug-sun \
     init.qti.kernel.early_debug-tuna \
     init.qti.kernel.early_debug \
     init.qti.kernel \

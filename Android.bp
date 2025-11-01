@@ -48847,82 +48847,10 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.kernel.post_boot-kera",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-kera.sh",
-    filename: "init.kernel.post_boot-kera.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kera_2_3_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-kera_2_3_1.sh",
-    filename: "init.kernel.post_boot-kera_2_3_1.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kera_2_4_0",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-kera_2_4_0.sh",
-    filename: "init.kernel.post_boot-kera_2_4_0.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kera_3_2_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-kera_3_2_1.sh",
-    filename: "init.kernel.post_boot-kera_3_2_1.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kera_default_3_4_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-kera_default_3_4_1.sh",
-    filename: "init.kernel.post_boot-kera_default_3_4_1.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.kernel.post_boot-memory",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.kernel.post_boot-memory.sh",
     filename: "init.kernel.post_boot-memory.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-sun",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun.sh",
-    filename: "init.kernel.post_boot-sun.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-sun_5_2",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun_5_2.sh",
-    filename: "init.kernel.post_boot-sun_5_2.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-sun_6_0",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun_6_0.sh",
-    filename: "init.kernel.post_boot-sun_6_0.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-sun_default_6_2",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun_default_6_2.sh",
-    filename: "init.kernel.post_boot-sun_default_6_2.sh",
     soc_specific: true,
 }
 
@@ -49071,22 +48999,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qti.kernel.debug-kera",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug-kera.sh",
-    filename: "init.qti.kernel.debug-kera.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.debug-sun",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug-sun.sh",
-    filename: "init.qti.kernel.debug-sun.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qti.kernel.debug-tuna",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.kernel.debug-tuna.sh",
@@ -49099,22 +49011,6 @@ sh_binary {
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.kernel.debug.sh",
     filename: "init.qti.kernel.debug.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug-kera",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug-kera.sh",
-    filename: "init.qti.kernel.early_debug-kera.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug-sun",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug-sun.sh",
-    filename: "init.qti.kernel.early_debug-sun.sh",
     soc_specific: true,
 }
 
