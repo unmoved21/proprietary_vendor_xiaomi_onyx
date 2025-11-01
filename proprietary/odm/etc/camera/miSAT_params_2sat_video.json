@@ -1,0 +1,31 @@
+/* role_id 按 WCameraRole 定义填写，params按FOV从大到小填写, main_role_id是1X所在的Camera的role_id*/
+{
+    "camera_num": 2,
+    "main_role_id": 2,
+    "dc_enable": 0,
+    "params": [
+      {
+        "role_id": 1,
+        "h_fov": 96.2,
+        "focal_length": 1.6,
+        "physical_width": 3.655,
+        "physical_height": 2.741,
+        "active_array_width": 3264,
+        "active_array_height": 2448,
+        "pixel_array_width": 3264,
+        "pixel_array_height": 2448
+      },
+      {
+        "role_id": 2,
+        "h_fov": 67.5,
+        "focal_length": 4.94,
+        "physical_width": 6.553,
+        "physical_height": 4.915,
+       "active_array_width": 8192,
+        "active_array_height": 6144,
+        "pixel_array_width": 4096,
+        "pixel_array_height": 3072
+      }
+    ]
+}
+
