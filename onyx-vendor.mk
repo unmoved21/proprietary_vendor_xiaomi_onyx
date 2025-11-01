@@ -2520,7 +2520,6 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     android.hardware.bluetooth.audio-impl-qti \
-    android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth.audio_sw \
     android.hardware.bluetooth.lmp_event-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
