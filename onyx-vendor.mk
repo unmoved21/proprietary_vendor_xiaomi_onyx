@@ -1063,6 +1063,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/misensor_camera.rc:$(TARGET_COPY_OUT_ODM)/etc/init/misensor_camera.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/nfc-service-nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/nfc-service-nxp.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay-service.rc \
+    vendor/xiaomi/onyx/proprietary/odm/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature-service.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/izat_device.conf:$(TARGET_COPY_OUT_ODM)/etc/izat_device.conf \
@@ -1073,6 +1074,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/mdss_dsi_o10u_42_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_o10u_42_02_0a_dsc_vid_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml \
+    vendor/xiaomi/onyx/proprietary/odm/etc/permissions/vendor.hardware.vibratorfeature-permission.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor.hardware.vibratorfeature-permission.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/ak7323.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/ak7323.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/bonito_qsh_ble_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/bonito_qsh_ble_0.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/chre_dynamic_sensors.json \
@@ -1570,6 +1572,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ASR_binary/Whisper/speech_float.eai:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/speech_float.eai \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/Hapticsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Hapticsconfig.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ITVDD.txt:$(TARGET_COPY_OUT_VENDOR)/etc/ITVDD.txt \
     vendor/xiaomi/onyx/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
@@ -1737,6 +1740,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/facelandmark/weight_3_1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facelandmark/weight_3_1.dat \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/facelandmark/weight_3_2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facelandmark/weight_3_2.dat \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/itof/tuning_params_sensor_type_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/eva/itof/tuning_params_sensor_type_1.json \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/getConfig.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/getConfig.pnscr \
     vendor/xiaomi/onyx/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
@@ -2318,6 +2322,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.bluetooth.audio-impl_prebuilt \
+    android.hardware.vibrator-V1-ndk_prebuilt \
     android.media.audio.common.types-V6-ndk \
     btaudio_offload_if \
     com.mi.node.fd \
@@ -3318,6 +3323,7 @@ PRODUCT_PACKAGES += \
     vendor.display.postproc@1.0 \
     vendor.dolby.dms-V1-ndk \
     vendor.dolby.hardware.dms@2.0 \
+    vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -3884,6 +3890,7 @@ PRODUCT_PACKAGES += \
     manifest_nxp_nfc.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     misensor_camera.xml \
+    vendor.xiaomi.hardware.vibratorfeature.service.xml \
     vendor.xiaomi.hw.touchfeature-service.xml \
     vendor.xiaomi.sensor.citsensorservice.aidl.xml \
     SoterProvisioningTool \
@@ -4012,6 +4019,7 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver-service.nxp-qti \
     dvs-aidl-service \
     misensor_camera \
+    vendor.xiaomi.hardware.vibratorfeature.service \
     vendor.xiaomi.hw.touchfeature-service \
     vendor.xiaomi.sensor.citsensorservice.aidl \
     mlipayd \
