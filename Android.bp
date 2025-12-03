@@ -26326,24 +26326,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsn100u_fw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsn100u_fw.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsn220u_fw",
     owner: "xiaomi",
     strip: {
@@ -26353,24 +26335,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsn220u_fw.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsn300u_fw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsn300u_fw.so",
             ],
         },
     },
@@ -26915,38 +26879,6 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libtinyxml2",
                 "libpowercore",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstnfc-auth",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libstnfc-auth.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "libhardware_legacy",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "nfc_nci.st21nfc.st",
                 "libc++",
                 "libc",
                 "libm",
@@ -44232,69 +44164,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "nfc_nci.nqx.default.hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/nfc_nci.nqx.default.hw.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "libhardware_legacy",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "nfc_nci.st21nfc.st",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/nfc_nci.st21nfc.st.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "libhardware_legacy",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "sensors.touch.detect",
     owner: "xiaomi",
     strip: {
@@ -45695,15 +45564,6 @@ prebuilt_etc_xml {
     name: "dvs-aidl-service.xml",
     owner: "xiaomi",
     src: "proprietary/odm/etc/vintf/manifest/dvs-aidl-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_nxp_nfc.xml",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/vintf/manifest/manifest_nxp_nfc.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     device_specific: true,
@@ -47737,32 +47597,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "nqnfcinfo",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/nqnfcinfo",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "nv_mac",
     owner: "xiaomi",
     target: {
@@ -47868,36 +47702,6 @@ cc_prebuilt_binary {
                 "libqmi_csi",
                 "libmdmdetect",
                 "libperipheral_client",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "pnscr",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/pnscr",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "liblog",
-                "libutils",
-                "libhardware_legacy",
                 "libc++",
                 "libc",
                 "libm",
@@ -49492,39 +49296,6 @@ cc_prebuilt_binary {
                 "android.se.omapi-V1-ndk",
                 "libjc_keymint_transport_nxp",
                 "libcppbor_external",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    device_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.nqnfc-service.nxp",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/hw/android.hardware.nqnfc-service.nxp",
-            ],
-            shared_libs: [
-                "nfc_nci.nqx.default.hw",
-                "libbase",
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libhidlbase",
-                "libbinder_ndk",
-                "libhardware",
                 "libc++",
                 "libc",
                 "libm",
