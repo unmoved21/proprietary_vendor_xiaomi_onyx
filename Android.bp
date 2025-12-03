@@ -35662,31 +35662,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.sla.service-V1-ndk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.sla.service-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.snapdragonServices-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -47092,42 +47067,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vendor.qti.sla.service@2.0-service",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.qti.sla.service@2.0-service",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libhwbinder",
-                "libhardware_legacy",
-                "libbase",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.qti.sla.service-V1-ndk",
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.displayfeature_aidl-service",
     owner: "xiaomi",
     target: {
@@ -48535,38 +48474,6 @@ cc_prebuilt_binary {
                 "libssl",
                 "libqmi_cci",
                 "libqmi_common_so",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "slad",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/slad",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libcrypto",
-                "libcutils",
-                "liblog",
-                "libnetutils",
-                "libsysutils",
-                "libbase",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",

@@ -1724,7 +1724,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qvrd_vndr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qvrd_vndr.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/slad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slad.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/snapdragon_services.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snapdragon_services.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
@@ -1754,7 +1753,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.qspmhal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.sla.service@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.sla.service@2.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.smp2p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.smp2p.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -1898,7 +1896,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/javalibs/odpmanagerlib-aar:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/javalibs/odpmanagerlib-aar \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/sns_odp_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_odp_config \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sla/slad.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sla/slad.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
@@ -3343,7 +3340,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdsys-V4-ndk \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal-impl \
-    vendor.qti.sla.service-V1-ndk \
     vendor.qti.snapdragonServices-V1-ndk \
     vendor.qti.snapdragonServices.qape-V1-ndk \
     vendor.qti.syshealthmon-V1-ndk \
@@ -3808,7 +3804,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.trustedui-aidl-service-qti \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
-    vendor.qti.sla.service@2.0-service \
     vendor.xiaomi.hardware.displayfeature_aidl-service \
     vendor.xiaomi.hardware.micharge-service \
     vendor.xiaomi.hardware.vibratorfeature.service \
@@ -3858,7 +3853,6 @@ PRODUCT_PACKAGES += \
     rmt_storage \
     sensors.qti \
     shsusrd \
-    slad \
     slim_daemon \
     snapdragon_services \
     sscrpcd \
