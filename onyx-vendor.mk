@@ -1786,7 +1786,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_performance_tuna_v0_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v0_without_dvenc.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v0.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_tuna_v0_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v0_without_dvenc.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_profiles_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_tuna_v0.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_tuna_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_tuna_v0/video_system_specs.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
