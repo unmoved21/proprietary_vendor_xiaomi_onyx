@@ -4407,7 +4407,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.afbrckt.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4453,7 +4452,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.anchorsync.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4499,7 +4497,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.demux.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4545,7 +4542,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.derivedoffline.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4592,7 +4588,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.frc.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4638,7 +4633,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.fusion.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4684,7 +4678,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.generic.sm8750.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4730,7 +4723,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.generic.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4776,7 +4768,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.gs.sm8750.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4843,7 +4834,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.hdr.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4889,7 +4879,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.mcreprocrt.sm8750.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4935,7 +4924,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.mcreprocrt.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -4981,7 +4969,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.memcpy.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5027,7 +5014,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.metadataserializer.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5073,7 +5059,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.mfsr.sm8750.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5119,7 +5104,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.mfsr.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5165,7 +5149,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.ml.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5211,7 +5194,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.mux.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5257,7 +5239,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.offlinestatsregeneration.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5306,7 +5287,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.qcfa.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5352,7 +5332,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.raw2yuvhdr.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5398,7 +5377,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.rawhdr.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5444,7 +5422,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.realtimeserializer.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5490,7 +5467,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.rt.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5536,7 +5512,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.rtmcx.sm8750.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5582,7 +5557,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.rtmcx.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5628,7 +5602,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.rtpostproc.sm8750.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5674,7 +5647,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.rtpostproc.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5720,7 +5692,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.serializer.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5766,7 +5737,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.statsregeneration.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5812,7 +5782,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.stub.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -5858,7 +5827,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qti.feature2.swmf.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -6212,7 +6180,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.mcx.policy.mfl.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -6258,7 +6225,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.mcx.policy.sfl.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -6447,7 +6413,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -7902,7 +7867,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/com.qti.chi.offline.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -12329,7 +12293,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcamxcommonutils.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libutilscallstack",
                 "libcameraopt",
                 "libc++",
@@ -12847,7 +12810,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcamxsettingsmanager.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libcamxcommonutils",
                 "libcutils",
                 "libc++",
@@ -18858,7 +18820,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmicamera_adapter.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -18984,7 +18945,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmicamera_hal_core.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libcutils",
                 "libdmabufheap",
                 "libcamera_metadata",
