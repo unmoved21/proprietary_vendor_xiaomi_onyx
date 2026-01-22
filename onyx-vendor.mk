@@ -3694,7 +3694,6 @@ PRODUCT_PACKAGES += \
     dms-service.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
-    manifest_audio_qti_services.xml \
     manifest_btaudiocoreservices_qti.xml \
     mapper.qti.xml \
     media_c2_mi.xml \
