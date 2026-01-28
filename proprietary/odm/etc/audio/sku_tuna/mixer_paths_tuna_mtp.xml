@@ -264,6 +264,29 @@
     <path name="speaker-bot-prot">
     </path>
 
+    <path name="speaker-tl">
+    </path>
+
+    <path name="speaker-tl-prot">
+    </path>
+
+    <path name="speaker-tr">
+    </path>
+
+    <path name="speaker-tr-prot">
+    </path>
+
+    <path name="speaker-bl">
+    </path>
+
+    <path name="speaker-bl-prot">
+    </path>
+
+    <path name="speaker-br">
+    </path>
+
+    <path name="speaker-br-prot">
+    </path>
     <!-- These are actual sound device specific mixer settings -->
     <path name="amic2">
         <ctl name="TX DEC0 MUX" value="SWR_MIC" />
@@ -329,6 +352,12 @@
 
     <path name="back-mic">
         <path name="amic5" />
+    </path>
+
+    <path name="sidetop-mic">
+    </path>
+
+    <path name="sidebottom-mic">
     </path>
 
     <path name="dmic1">
@@ -1318,6 +1347,15 @@
         <ctl name="ADC4 ChMap" value="SWRM_TX3_CH2" />
         <ctl name="TX3 MODE" value="ADC_LP" />
         <ctl name="AMIC4_MIXER Switch" value="1" />
+    </path>
+
+    <path name="speaker-tmic-surround">
+    </path>
+
+    <path name="speaker-tmic-multi">
+    </path>
+
+    <path name="speaker-tmic-single">
     </path>
 
     <!-- Quad MIC devices -->

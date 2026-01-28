@@ -25,8 +25,8 @@
         <!--scroll-->
         <Config Hint="4224" Scence="0">
                 <Child Trig="35000"
-                Target0="boost:1 cpu0:2784000 cpu6:3283200"
-                Target1="boost:1 cpu0:2784000 cpu6:3283200"
+                Target0="boost:1 cpu0:2784000 cpu6:4089600"
+                Target1="boost:1 cpu0:2784000 cpu6:4089600"
                 Target2="boost:1 cpu0:2784000 cpu6:3072000"/>
                 <Child Trig="37000"
                 Target0="boost:1 cpu0:2784000 cpu6:2649600"
@@ -48,8 +48,8 @@
             <!--scroll-->
         <Config Hint="4224" Scence="1">
                 <Child Trig="35000"
-                Target0="boost:1 cpu0:2784000 cpu6:3283200"
-                Target1="boost:1 cpu0:2784000 cpu6:3283200"
+                Target0="boost:1 cpu0:2784000 cpu6:4089600"
+                Target1="boost:1 cpu0:2784000 cpu6:4089600"
                 Target2="boost:1 cpu0:2784000 cpu6:3072000"/>
                 <Child Trig="37000"
                 Target0="boost:1 cpu0:2784000 cpu6:2649600"
@@ -67,6 +67,29 @@
                 Target0="boost:1 cpu0:1555200 cpu6:1401600"
                 Target1="boost:1 cpu0:1555200 cpu6:1401600"
                 Target2="boost:1 cpu0:1555200 cpu6:1401600"/>
+        </Config>
+        <!--folded scroll-->
+        <Config Hint="4224" Scence="2">
+                <Child Trig="35000"
+                Target0="boost:1 cpu0:2784000 cpu6:3283200"
+                Target1="boost:1 cpu0:2400000 cpu6:3072000"
+                Target2="boost:1 cpu0:2400000 cpu6:3072000"/>
+                <Child Trig="37000"
+                Target0="boost:1 cpu0:2784000 cpu6:2649600"
+                Target1="boost:1 cpu0:2400000 cpu6:2438400 "
+                Target2="boost:1 cpu0:2400000 cpu6:2438400"/>
+                <Child Trig="39000"
+                Target0="boost:1 cpu0:2400000 cpu6:2246400"
+                Target1="boost:1 cpu0:2227200 cpu6:1958400"
+                Target2="boost:1 cpu0:2227200 cpu6:1958400"/>
+                <Child Trig="41000"
+                Target0="boost:1 cpu0:1996800 cpu6:1958400"
+                Target1="boost:1 cpu0:1785600 cpu6:1689600"
+                Target2="boost:1 cpu0:1785600 cpu6:1689600"/>
+                <Child Trig="45000"
+                Target0="boost:1 cpu0:1555200 cpu6:1401600"
+                Target1="boost:1 cpu0:1363200 cpu6:1209600"
+                Target2="boost:1 cpu0:1363200 cpu6:1209600"/>
         </Config>
     </PerfBreak>
 </BoostConfigs>

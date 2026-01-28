@@ -5,6 +5,6 @@
 <manifest version="8.0" type="device">
     <hal format="aidl">
         <name>android.hardware.media.c2</name>
-        <fqname>IComponentStore/xiaomi</fqname>
+        <fqname>IComponentStore/vendor0_software</fqname>
     </hal>
 </manifest>

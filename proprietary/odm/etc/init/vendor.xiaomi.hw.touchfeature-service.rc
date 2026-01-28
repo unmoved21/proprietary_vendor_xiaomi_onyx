@@ -111,6 +111,8 @@ on boot
     chmod 0664 /sys/class/touch/touch_dev/touch_thp_ic_cmd_data
     chown system system /sys/class/touch/touch_dev/touch_dfs_test
     chmod 0664 /sys/class/touch/touch_dev/touch_dfs_test
+    chown system system /sys/class/touch/touch_dev/fod_attn_test
+    chmod 0666 /sys/class/touch/touch_dev/fod_attn_test
 
 
 on charger

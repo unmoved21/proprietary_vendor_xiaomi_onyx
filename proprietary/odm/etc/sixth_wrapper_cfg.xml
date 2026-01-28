@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <sixth_wrapper_config>
-    <config_element name="sipa_ctl_prefix" left_ctl="SpkrLeft" right_ctl="SpkrRight" description="sipa ctrl name prefix"/>
+    <config_element name="sipa_ctl_prefix" spkr_0_ctl="SpkrLeft" spkr_1_ctl="SpkrRight" 
+		spkr_2_ctl="Spkr_ch_2" spkr_3_ctl="Spkr_ch_3" spkr_4_ctl="Spkr_ch_4" spkr_5_ctl="Spkr_ch_5" 
+		spkr_6_ctl="Spkr_ch_6" spkr_7_ctl="Spkr_ch_7" description="sipa ctrl name prefix"/>
     <config_element name="hpf" enable="0" frq1="109" frq2="53" chiptype1="9" chiptype2="10" 
         description="set hpf feq"/>
     <config_element name="vdd" enable="1" battery_node="/sys/class/power_supply/battery/voltage_now"

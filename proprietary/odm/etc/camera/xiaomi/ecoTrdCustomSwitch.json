@@ -1,6 +1,16 @@
 [
     {
-        "TrdCloudType":"Froce3rdEISEnable",
+        "TrdCloudType":"TrdCloud3rdDXGEnable",
+        "Mode": 1,
+        "ApkTable" :[]
+    },
+    {
+        "TrdCloudType":"TrdCloudASDEnable",
+        "Mode": 1,
+        "ApkTable" :[]
+    },
+    {
+        "TrdCloudType":"TrdCloudForceEisEnable",
         "Mode": 1,
         "ApkTable" :["com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity",
                      "com.ss.android.ugc.aweme.live.LiveBroadcastActivity",

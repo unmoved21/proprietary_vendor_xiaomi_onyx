@@ -220,6 +220,8 @@
         <Package Name="com.tencent.tmgp.sgame" FPS="90" NumThreads="3" /> <!-- HOK90 -->
     </PipelinedPackages>
     <IgnoredApps>
+        <App>com.papegames.lysk.cn</App>
+        <App>com.papegames.lysk.cn.mi</App>
         <App>com.google.android.gms</App>
         <App>com.android.vending</App>
         <App>com.google.android.projection.gearhead</App>

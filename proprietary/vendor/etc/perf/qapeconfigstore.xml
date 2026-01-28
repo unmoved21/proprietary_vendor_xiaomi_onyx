@@ -51,20 +51,18 @@ ________________________________________________________________________________
         <!-- Qape configs for tuna -->
         <Configs Target="tuna,kera" Weight="0,1">
             <MinimalisticJankRescuer>0</MinimalisticJankRescuer>
-            <Qfps>0</Qfps>
         </Configs>
 
         <Configs Target="tuna,kera" Weight="2">
             <MinimalisticJankRescuer>1</MinimalisticJankRescuer>
-            <Qfps>1</Qfps>
         </Configs>
 
         <Configs Target="tuna" Package="com.miHoYo.GenshinImpact" >
-            <MinimalisticJankRescuer>0</MinimalisticJankRescuer>
+            <MinimalisticJankRescuer>1</MinimalisticJankRescuer>
         </Configs>
 
         <Configs Target="tuna" Package="com.HoYoverse.hkrpgoversea" >
-            <MinimalisticJankRescuer>0</MinimalisticJankRescuer>
+            <MinimalisticJankRescuer>1</MinimalisticJankRescuer>
         </Configs>
 
         <Configs Target="tuna" Package="com.tencent.tmgp.sgame" >
@@ -84,11 +82,19 @@ ________________________________________________________________________________
         </Configs>
 
         <Configs Target="tuna" Package="com.levelinfinite.sgameGlobal" >
-            <MinimalisticJankRescuer>0</MinimalisticJankRescuer>
+            <MinimalisticJankRescuer>1</MinimalisticJankRescuer>
         </Configs>
 
         <Configs Target="tuna" Package="com.epicgames.fortnite" >
             <MinimalisticJankRescuer>0</MinimalisticJankRescuer>
+        </Configs>
+
+        <Configs Target="tuna,kera" Package="com.tencent.tmpg.pubgmhd" >
+            <MinimalisticJankRescuer>1</MinimalisticJankRescuer>
+        </Configs>
+
+        <Configs Target="tuna,kera" Package="com.pubg.imobile" >
+            <MinimalisticJankRescuer>1</MinimalisticJankRescuer>
         </Configs>
 
         <!-- SpuriousActvts are also checked as substrings in actual activity -->

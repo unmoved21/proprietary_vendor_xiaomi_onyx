@@ -32,6 +32,7 @@ HAL_DATASPACE_V0_JFIF = 146931712,  // ((STANDARD_BT601_625 | TRANSFER_SMPTE_170
 {
     "isSupportExtCamera": true,
     "ignoreV4L2DevicesByExtCamera": [0, 1],
+    "halHeicSupported": true,
     "supportDownCapture": true,
     "supportSortResult": true,
     "supportSortNotify": true,

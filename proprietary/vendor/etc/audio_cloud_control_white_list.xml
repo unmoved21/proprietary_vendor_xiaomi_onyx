@@ -329,4 +329,8 @@
         <miui.systemui.plugin/>
         <com.cstbtgaming/>
     </bluetooth_lowlatency_app_name_list>
+    <meeting_applist>
+        <com.tencent.wemeet.app_com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity_解除静音_静音_15/>
+        <com.tencent.wework_com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity_解除静音_静音_26/>
+    </meeting_applist>
 </audio_cloud_control>

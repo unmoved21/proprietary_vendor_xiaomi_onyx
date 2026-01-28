@@ -27,7 +27,7 @@
 #
 
 # Update the panel color property and Leds brightness 
-for i in $(seq 5); do
+for i in $(seq 15); do
     if [ -f /sys/class/touch/touch_dev/panel_color ]; then
 	color=`cat /sys/class/touch/touch_dev/panel_color`
 	if [ -n "$color" ]; then
@@ -209,6 +209,9 @@ case "$panel_vendor" in
         ;;
     "S")
         setprop vendor.panel.vendor 23
+        ;;
+    "V")
+        setprop vendor.panel.vendor 24
         ;;
     *)
         setprop vendor.panel.vendor UNKNOWN

@@ -882,6 +882,7 @@
     <TAG id="0xc000042" name="LHDC_config" enumValue="TAG_LHDC_BITWIDTH"/>
     <TAG id="0xc000043" name="LHDC_config_dpp" enumValue="TAG_LHDC_BITWIDTH_DPP"/>
     <TAG id="0xc000044" name="micall_module_switch" enumValue="TAG_MICALL_MODULE_SWITCH"/>
+    <TAG id="0xc000340" name="miec_speaker_direction" enumValue="MIEC_SPK_ROTATION"/>
     <TAG id="0xc0000004" name="device_hw_ep_rx" enumValue="DEVICE_HW_ENDPOINT_RX" enumName="Tag_Keys_DEVICE_HW_ENDPOINT_RX" description="Hw EP Rx">
       <KEY id="0xa9000000" name="Channels" enumValue="tk1_device_hw_ep_rx"/>
     </TAG>

@@ -11,14 +11,15 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/xm_power/charger/charge_interface/shipmode_count_reset
     chown system system /sys/class/xm_power/charger/smart_charge/smart_batt
     chown system system /sys/class/xm_power/fg_master/ui_soh
+    chown system system /sys/class/xm_power/fg_slave/ui_soh
     chown system system /sys/class/xm_power/fg_master/rsoc
     chown system system /sys/class/xm_power/fg_slave/rsoc
     chown system system /sys/class/xm_power/fg_master/soh
     chown system system /sys/class/xm_power/fg_slave/soh
     chown system system /sys/class/xm_power/fg_master/batt_sn
     chown system system /sys/class/xm_power/fg_slave/batt_sn
-    chown system system /sys/class/xm_power/fg_master/manufacturing_date
-    chown system system /sys/class/xm_power/fg_master/first_usage_date
+    chown system system /sys/class/xm_power/fuelgauge/strategy_fg/manufacturing_date
+    chown system system /sys/class/xm_power/fuelgauge/strategy_fg/first_usage_date
     chown system system /sys/class/xm_power/fg_master/cyclecount
     chown system system /sys/class/xm_power/fg_slave/cyclecount
     chown system system /sys/class/xm_power/fg_slave/design_capacity
@@ -36,6 +37,9 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/xm_power/charger/smart_charge/smart_chg
     chown system system /sys/class/xm_power/hw_monitor/lpd/lpd_charging
     chown system system /sys/class/xm_power/hw_monitor/connector/mos_ctrl
+    chown system system /sys/class/xm_power/hw_monitor/connector/connector_temp_1
+    chown system system /sys/class/xm_power/hw_monitor/connector/connector_temp_2
+    chown system system /sys/class/xm_power/typec/strategy_pd_auth/adapter_id
     chown system system /sys/class/xm_power/fuelgauge/strategy_fg/fast_charge
     chown system system /sys/class/xm_power/fuelgauge/strategy_fg/soc_decimal
     chown system system /sys/class/xm_power/fuelgauge/strategy_fg/soc_decimal_rate
@@ -99,6 +103,9 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/xm_power/fg_master/vendor
     chown system system /sys/class/xm_power/charger/wls_rev_charge/reverse_chg_state
     chown system system /sys/class/xm_power/fg_master/chip_ok
+    chown system system /sys/class/xm_power/fg_slave/chip_ok
+    chown system system /sys/class/xm_power/fuelgauge/strategy_fg/authentic
+    chown system system /sys/class/xm_power/fuelgauge/strategy_fg/slave_authentic
     chown system system /sys/class/xm_power/fg_master/rel_soh
     chown system system /sys/class/xm_power/fg_master/rel_soh_cyclecount
     chown system system /sys/class/xm_power/fg_master/eis_soh
@@ -115,6 +122,9 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/xm_power/fg_master/over_vol_duration
     chown system system /sys/class/xm_power/wireless_master/tx_uuid
     chown system system /sys/class/xm_power/fuelgauge/strategy_fg/enable_rollback
+    chmod 0660 /sys/class/xm_power/hw_monitor/connector/connector_temp_1
+    chmod 0660 /sys/class/xm_power/hw_monitor/connector/connector_temp_2
+    chmod 0660 /sys/class/xm_power/typec/strategy_pd_auth/adapter_id
     chown system system /sys/class/xm_power/fuelgauge/strategy_fg/calc_rvalue
     chown system system /sys/class/xm_power/charger/charger_common/reverse_quick_charge
     chown system system /sys/class/xm_power/charger/charger_common/revchg_bcl
@@ -136,6 +146,10 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/xm_power/fg_master/charge_absoc
     chown system system /sys/class/xm_power/fuelgauge/strategy_fg/audio_state
     chown system system /sys/class/xm_power/typec/apdo_max
+    chown system system /sys/class/xm_power/cp_master/pogo_connect
+    chown system system /sys/class/xm_power/fg_master/chem_df_sign
+    chown system system /sys/class/xm_power/fg_master/df_check
+    chown system system /sys/class/xm_power/fg_master/pack_vendor
 
     chmod 0660 /sys/class/xm_power/charger/charger_partition/charger_partition_poweroffmode
     chmod 0660 /sys/class/xm_power/charger/charge_interface/charge_enable
@@ -144,8 +158,8 @@ on property:dev.bootcomplete=1
     chmod 0660 /sys/class/xm_power/charger/smart_charge/smart_night
     chmod 0660 /sys/class/xm_power/charger/smart_charge/smart_batt
     chmod 0660 /sys/class/xm_power/charger/charger_interface/shipmode_count_reset
-    chmod 0660 /sys/class/xm_power/fg_master/manufacturing_date
-    chmod 0660 /sys/class/xm_power/fg_master/first_usage_date
+    chmod 0660 /sys/class/xm_power/fuelgauge/strategy_fg/manufacturing_date
+    chmod 0660 /sys/class/xm_power/fuelgauge/strategy_fg/first_usage_date
     chmod 0660 /sys/class/xm_power/fg_master/ui_soh
     chmod 0440 /sys/class/xm_power/fg_master/design_capacity
     chmod 0440 /sys/class/xm_power/fg_slave/design_capacity
@@ -157,6 +171,9 @@ on property:dev.bootcomplete=1
     chmod 0440 /sys/class/xm_power/fg_slave/design_capacity
     chmod 0440 /sys/class/xm_power/fg_master/rsoc
     chmod 0440 /sys/class/xm_power/fg_slave/rsoc
+    chmod 0660 /sys/class/xm_power/fg_master/chem_df_sign
+    chmod 0660 /sys/class/xm_power/fg_master/df_check
+    chmod 0660 /sys/class/xm_power/fg_master/pack_vendor
 
     chmod 0660 /sys/class/xm_power/charger/wls_rev_charge/wireless_chip_fw
     chmod 0660 /sys/class/xm_power/charger/wls_rev_charge/reverse_chg_mode

@@ -28,9 +28,12 @@
         {
             "ApkFunctionType":"ScanBlacklist",
             "Mode": 0,
-            "ApkTable" :["com.lixiangdong.textscanner",
-                         "com.baidu.wenku",
-                         "com.jingdong.app.mall",
+            "ApkTable" :["com.tencent.zebra",
+                         "com.p1.mobile.putong",
+                         "com.kwai.m2u",
+                         "com.smile.gifmaker",
+                         "com.achievo.vipshop",
+                         "com.baidu.tieba",
                          "cn.sto.sxz.core.app"]
         },
         {
@@ -94,7 +97,7 @@
         {
             "ApkFunctionType":"FactoryRunin",
             "Mode": 0,
-            "ApkTable" :["com.xiaomi.runin"]
+            "ApkTable" :["None"]
         },
         {
             "ApkFunctionType":"ReconfigCaptureScene",
@@ -164,17 +167,13 @@
         {
             "ApkFunctionType":"FactoryTest",
             "Mode": 0,
-            "ApkTable" :["com.xiaomi.runin",
-                         "com.xiaomi.cameratest",
-                         "com.xiaomi.factory.mmi"]
+            "ApkTable" :["None"]
         },
         {
             "ApkFunctionType":"ThirdDXGDisable",
             "Mode": 1,
             "ApkTable" :["com.ss.android.ugc.aweme.live.LiveBroadcastActivity",
-                         "com.xingin.alpha.emcee.AlphaEmceeActivity",
-                         "com.instagram.rtc.activity.RtcCallActivity",
-                         "com.tencent.mm.plugin.recordvideo.activity.MMRecordUI"]
+                         "com.xingin.alpha.emcee.AlphaEmceeActivity"]
         },
         {
             "ApkFunctionType":"GLVideoOptimization",
@@ -201,9 +200,10 @@
                          "com.miui.face",
                          "com.ss.android.ugc.aweme",
                          "tv.danmaku.bili",
-                         "com.lyy.beauty",
-                         "com.sdu.didi.psnger",
-                         "com.xiaomi.cameratest"
+                         "com.instagram.android",
+                         "com.snapchat.android",
+                         "com.whatsapp",
+                         "com.gorgeous.lite"
                         ]
         },
         {
@@ -217,6 +217,7 @@
             "ApkTable" :["com.tencent.mm.plugin.recordvideo.activity.MMRecordUI",
                          "com.tencent.mm.plugin.scanner.ui.BaseScanUI",
                          "com.ai.marki.camera2.biz.MainActivity",
+                         "com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity",
                          "com.tencent.aelight.camera.aebase.QIMCameraCaptureActivity",
                          "com.alipay.mobile.beehive.capture.activity.CaptureActivity",
                          "com.ss.android.ugc.aweme.qrcode.ecom.ScanCommodityActivity",
@@ -298,7 +299,10 @@
                          "com.tencent.mm.plugin.profile.ui.ContactInfoUI",
                          "com.tencent.mm.ui.LauncherUI",
                          "com.tencent.mm.plugin.voip.ui.VideoActivity",
-                         "com.tencent.av.ui.AVActivity"]
+                         "com.tencent.av.ui.AVActivity",
+                         "com.tencent.mm.plugin.recordvideo.activity.MMRecordUI",
+                         "com.tencent.aelight.camera.aebase.QIMCameraCaptureActivity",
+                         "com.bytedance.android.xr.fusion.XrAvCallActivity"]
         },
         {
             "ApkFunctionType":"TopAPP_601full",
@@ -310,6 +314,12 @@
             "ApkFunctionType":"ThirdAppSkipFpsMatch",
             "Mode": 0,
             "ApkTable" :["com.milink.service"]
+        },
+        {
+            "ApkFunctionType":"IsItsTest",
+            "Mode": 0,
+            "ApkTable" :["com.android.cts.verifier",
+                         "com.google.jetpackcamera"]
         }
     ],
     "FEATURE_SWITCH":[

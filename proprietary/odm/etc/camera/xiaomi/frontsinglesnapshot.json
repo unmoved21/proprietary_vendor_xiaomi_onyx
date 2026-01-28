@@ -127,6 +127,14 @@
             ]
         },
         {
+            "NodeName": "com.xiaomi.plugin.heifedit",
+            "NodeInstance": "HeifEditInstance"
+        },
+        {
+            "NodeName": "com.xiaomi.plugin.yuv2Heic",
+            "NodeInstance": "yuv2HeicInstance"
+        },
+        {
             "NodeName": "com.xiaomi.plugin.swflip",
             "NodeInstance": "SwflipInstance"
         },
@@ -451,12 +459,32 @@
         },
         {
             "SrcPort": {
+                "PortId": 2,
+                "NodeInstance": "WatermarkInstance0"
+            },
+            "DstPort": {
+                "PortId": 3,
+                "NodeInstance": "HeifEditInstance"
+            }
+        },
+        {
+            "SrcPort": {
                 "PortId": 3,
                 "NodeInstance": "WatermarkInstance0"
             },
             "DstPort": {
                 "PortId": 4,
                 "NodeInstance": "jpegrAggrInstance"
+            }
+        },
+        {
+            "SrcPort": {
+                "PortId": 3,
+                "NodeInstance": "WatermarkInstance0"
+            },
+            "DstPort": {
+                "PortId": 4,
+                "NodeInstance": "HeifEditInstance"
             }
         },
         {
@@ -478,6 +506,18 @@
             "DstPort": {
                 "PortId": 1,
                 "NodeInstance": "jpegrAggrInstance",
+                "PortFormat": "BLOB"
+            }
+        },
+        {
+            "SrcPort": {
+                "PortId": 0,
+                "NodeInstance": "swjpegInstance1",
+                "PortFormat": "BLOB"
+            },
+            "DstPort": {
+                "PortId": 1,
+                "NodeInstance": "HeifEditInstance",
                 "PortFormat": "BLOB"
             }
         },
@@ -516,6 +556,17 @@
                 "PortFormat": "IMPLEMENTATION_DEFINED"
             },
             "DstPort": {
+              "PortId": 0,
+              "NodeInstance": "yuv2HeicInstance"
+            }
+        },
+        {
+            "SrcPort": {
+                "PortId": 0,
+                "NodeInstance": "yuv2HeicInstance",
+                "PortFormat": "BLOB"
+            },
+            "DstPort": {
                 "PortId": 0,
                 "NodeInstance": "jpegrAggrInstance"
             }
@@ -524,6 +575,18 @@
             "SrcPort": {
                 "PortId": 0,
                 "NodeInstance": "jpegrAggrInstance",
+                "PortFormat": "BLOB"
+            },
+            "DstPort": {
+                "PortId": 0,
+                "NodeInstance": "HeifEditInstance",
+                "PortFormat": "BLOB"
+            }
+        },
+        {
+            "SrcPort": {
+                "PortId": 0,
+                "NodeInstance": "HeifEditInstance",
                 "PortFormat": "BLOB"
             },
             "DstPort": {
@@ -556,7 +619,7 @@
             },
             "DstPort": {
                 "PortId": 1,
-                "NodeInstance": "SinkBuffer1"
+                "NodeInstance": "yuv2HeicInstance"
             }
         },
         {
@@ -625,6 +688,18 @@
             "SrcPort": {
                 "PortId": 0,
                 "NodeInstance": "SwflipInstanceGainmap",
+                "PortFormat": "Y8"
+            },
+            "DstPort": {
+                "PortId": 4,
+                "NodeInstance": "WatermarkInstance0",
+                "PortFormat": "Y8"
+            }
+        },
+        {
+          "SrcPort": {
+                "PortId": 4,
+                "NodeInstance": "WatermarkInstance0",
                 "PortFormat": "Y8"
             },
             "DstPort": {
