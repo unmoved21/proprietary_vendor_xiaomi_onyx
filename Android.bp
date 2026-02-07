@@ -9647,7 +9647,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -16314,6 +16313,58 @@ cc_prebuilt_library_shared {
                 "libcacertclient",
                 "libbinder_ndk",
                 "vendor.qti.hardware.cacertaidlservice-V1-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpegdecoder_prebuilt",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libjpegdecoder_prebuilt.so",
+            ],
+            shared_libs: [
+                "libjpeg",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpegencoder_prebuilt",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libjpegencoder_prebuilt.so",
+            ],
+            shared_libs: [
+                "libjpeg",
+                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -25572,6 +25623,35 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libubwcp.so",
             ],
             shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libultrahdr_prebuilt",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libultrahdr_prebuilt.so",
+            ],
+            shared_libs: [
+                "libimage_io",
+                "libjpeg",
+                "libjpegencoder_prebuilt",
+                "libjpegdecoder_prebuilt",
                 "liblog",
                 "libc++",
                 "libc",
@@ -36714,7 +36794,7 @@ cc_prebuilt_library_shared {
                 "libcom.xiaomi.debug",
                 "com.xiaomi.camdfx",
                 "libcamlog",
-                "libultrahdr",
+                "libultrahdr_prebuilt",
                 "libjpeg",
                 "libc++",
                 "libc",
@@ -36724,7 +36804,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     relative_install_path: "camera/plugins",
     prefer: true,
     device_specific: true,
@@ -36827,7 +36906,7 @@ cc_prebuilt_library_shared {
                 "libjpeg",
                 "libexif",
                 "libimage_io",
-                "libultrahdr",
+                "libultrahdr_prebuilt",
                 "libz",
                 "libc++",
                 "libc",
@@ -36837,7 +36916,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     relative_install_path: "camera/plugins",
     prefer: true,
     device_specific: true,
@@ -38617,7 +38695,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -38701,7 +38778,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -38757,7 +38833,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -38788,7 +38863,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -41012,7 +41086,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
