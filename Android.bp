@@ -44412,47 +44412,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.contexthub-service.qmi",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.contexthub-service.qmi",
-            ],
-            shared_libs: [
-                "android.hardware.contexthub-V3-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "liblog",
-                "libsnsapi",
-                "libqmi_cci",
-                "libqmi_common_so",
-                "libqmi_encdec",
-                "libsns_device_mode_stub",
-                "libsns_dynamic_loader_stub",
-                "libpower",
-                "libprotobuf-cpp-lite-21.12-vendorcompat",
-                "libsns_remote_proc_state_stub",
-                "libutils",
-                "libjsoncpp",
-                "libcdsprpc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.gatekeeper-service-qti",
     owner: "xiaomi",
     target: {

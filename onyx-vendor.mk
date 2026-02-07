@@ -3485,7 +3485,6 @@ PRODUCT_PACKAGES += \
     hexlpservice \
     hlosminkdaemon \
     android.hardware.bluetooth@aidl-service-qti \
-    android.hardware.contexthub-service.qmi \
     android.hardware.gatekeeper-service-qti \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
