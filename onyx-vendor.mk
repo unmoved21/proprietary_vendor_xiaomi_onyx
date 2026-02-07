@@ -3099,17 +3099,12 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libadsp_jpege_skel_so \
     vendor_lib_rfsa_adsp_libarc_htp_driver_skel_so \
     vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
-    vendor_lib_rfsa_adsp_libdsp_streamer_qvrcam_receiver_so \
-    vendor_lib_rfsa_adsp_libeye_tracking_dsp_sample_skel_so \
     vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so \
     vendor_lib_rfsa_adsp_libhme_dsp_skel_so \
     vendor_lib_rfsa_adsp_libmctfengine_skel_so \
     vendor_lib_rfsa_adsp_libmialgo_basic_cdsp_skel_so \
     vendor_lib_rfsa_adsp_libmialgo_rfs_cdsp_skel_so \
     vendor_lib_rfsa_adsp_libmlawbpostproc_dsp_skel_so \
-    vendor_lib_rfsa_adsp_libqvr_3dof_tracker_skel_so \
-    vendor_lib_rfsa_adsp_libqvr_cam_dsp_driver_skel_so \
-    vendor_lib_rfsa_adsp_libqvr_dsp_driver_skel_so \
     vendor_lib_rfsa_adsp_libtracker_6dof_skel_8450_so \
     vendor_lib_rfsa_adsp_nearby_napp_header \
     vendor_lib_rfsa_adsp_nearby_so \

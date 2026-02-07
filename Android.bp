@@ -34846,24 +34846,6 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "vendor_lib_rfsa_adsp_libdsp_streamer_qvrcam_receiver_so",
-    filename: "libdsp_streamer_qvrcam_receiver.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "vendor_lib_rfsa_adsp_libeye_tracking_dsp_sample_skel_so",
-    filename: "libeye_tracking_dsp_sample_skel.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
     name: "vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so",
     filename: "libhalide_hexagon_remote_skel.so",
     owner: "xiaomi",
@@ -34913,33 +34895,6 @@ prebuilt_rfsa {
     filename: "libmlawbpostproc_dsp_skel.so",
     owner: "xiaomi",
     src: "proprietary/vendor/lib/rfsa/adsp/libmlawbpostproc_dsp_skel.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "vendor_lib_rfsa_adsp_libqvr_3dof_tracker_skel_so",
-    filename: "libqvr_3dof_tracker_skel.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/libqvr_3dof_tracker_skel.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "vendor_lib_rfsa_adsp_libqvr_cam_dsp_driver_skel_so",
-    filename: "libqvr_cam_dsp_driver_skel.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "vendor_lib_rfsa_adsp_libqvr_dsp_driver_skel_so",
-    filename: "libqvr_dsp_driver_skel.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
 }
