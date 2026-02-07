@@ -1250,201 +1250,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool-fastinput.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-fastinput.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/0_click_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/101_offlineCountdown_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/102_sceneBombInjury_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/103_sceneBomb_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/104_doorOpen_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/106_sceneStep_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/107_crawl_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/107_crawl_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/108_scopeOn_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/109_scopeOff_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/10_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/110_magazineQuick_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/111_grenade_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/111_grenade_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/112_sceneGetshot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/113_grenadeExplosion_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/114_punch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/114_punch_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/115_pan_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/115_pan_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/116_bandage_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/116_bandage_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/118_sceneJump_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/119_vehiclePlane_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/11_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/120_sceneOpenparachute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/121_sceneCloseparachute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/122_vehicleCollision_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/123_vehicleBuggy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/124_vehicleDacia_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/125_vehicleMoto_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/126_firearmsAkm_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/127_firearmsM16a4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/128_firearmsAwm_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/12_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/130_firearmsMini14_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/131_firearmsVss_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/132_firearmsQbz_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/133_firearmsUmp9_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/134_firearmsDp28_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/135_firearmsS1897_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/137_firearmsP18c_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/13_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/140_cfmKillOne_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/141_cfmHeadshot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/142_cfmMultiKill_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/143_cfmKillOneStrong_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/144_cfmHeadshotStrong_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/145_cfmMultiKillStrong_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/146_cfmWeaponGrenadeExplode_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/148_cfmImpactFleshNormal_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/149_cfmWeaponC4Installed_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/14_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/150_cfmHeroAppear_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/151_cfmUIRewardOpenBox_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/152_cfmUIRewardTask_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/153_cfmWeaponBLTShoot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/154_Atlantis_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/155_DigitalUniverse_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/156_Reveries_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/157_fodMotionTriang_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/158_fodMotionFlare_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/159_fodMotionRipple_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/15_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/160_fodMotionSpiral_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/161_gameboxLaunch_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/162_GestureBackPull_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/163_GestureBackRelease_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/164_alert_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/164_alert_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/165_feedbackNegativeLight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/166_feedbackNeutral_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/167_feedbackPositive_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/168_fingerprintRecord_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/169_lockdown_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/16_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/170_slidingDamping_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/171_todoAlldone_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/172_uninstallAnimationIcon_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/173_signalButtonHighlight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/174_signalButtonNegative_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/175_signalButton_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/176_signalClockHigh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/177_signalClock_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/178_signalClockUnit_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/179_signalInputbox_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/17_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/180_signalKeyHigh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/181_signalKeyUnit_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/182_signalListHighlight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/183_signalList_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/183_signalList_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/184_signalPicker_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/185_signalPopup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/186_signalSeekbar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/187_signalSwitch_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/188_signalTab_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/189_signalText_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/189_signalText_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/18_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/190_signalTransitionLight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/191_signalTransition_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/192_hapticsVideo_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/19_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/1_doubelClick_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/201_BoundaryBounce_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/201_BoundaryBounce_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/202_BoundaryBottom_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/202_BoundaryBottom_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/203_BoundaryTop_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/203_BoundaryTop_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/204_SlideTag_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/204_SlideTag_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/205_SuperPositive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/205_SuperPositive_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/206_Positive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/206_Positive_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/207_Negative_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/207_Negative_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/208_Mute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/208_Mute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/209_ScreenLock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/209_ScreenLock_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/20_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/210_FingerprintUnlock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/210_FingerprintUnlock_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/211_Charge_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/211_Charge_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/212_NotificationCleanup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/212_NotificationCleanup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/213_ProcessCleanup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/213_ProcessCleanup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/214_APPUninstallation_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/214_APPUninstallation_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/215_GameBoxStartup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/215_GameBoxStartup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/216_EdittingMode_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/216_EdittingMode_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/217_CameraShutter_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/217_CameraShutter_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/23_Candy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/23_Candy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/24_Carousel_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/25_Celesta_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/26_Childhood_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/27_Country_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/27_Country_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/28_Cowboy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/2_tick_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/30_Fairyland_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/31_Fantasy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/32_FieldTrip_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/33_Glee_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/33_Glee_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/35_IceLatte_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/36_KungFu_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/38_Lollipop_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/39_MiMix2_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/3_thud_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/40_Mi_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/40_Mi_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/41_MiHouse_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/42_MiJazz_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/43_MiRemix_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/44_MountainSpring_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/45_Orange_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/45_Orange_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/46_WindChime_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/47_SpaceAge_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/48_ToyRobot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/49_Vigor_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/4_pop_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/50_Bottle_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/51_Bubble_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/521_AcousticGuitar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/52_Bullfrog_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/53_Burst_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/53_Burst_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/54_Chirp_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/55_Clank_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/55_Clank_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/56_Crystal_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/57_FadeIn_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/58_FadeOut_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/59_Flute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/59_Flute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/5_heavyClick_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/60_Fresh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/61_Frog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/61_Frog_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/62_Guitar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/63_Harp_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/63_Harp_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/64_IncomingMessage_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/65_MessageSent_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/66_Moment_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/66_Moment_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/67_NotificationXylophone_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/68_Potion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/68_Potion_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/69_Radar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/69_Radar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/6_ringTone1_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/70_Spring_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/70_Spring_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/71_Swoosh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/72_GestureUpSlide_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/73_fodMotionPlanet_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/74_ChargeWire_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/75_ChargeWireless_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/76_UnlockFailed_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/77_fodMotion1_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/78_fodMotion2_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/79_fodMotion3_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/7_ringTone2_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/80_fodMotion4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/81_fodMotionAurora_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/82_FaceIDWrong2_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/83_uninstallAnimation_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/84_uninstallDialog_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/85_screenshot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/86_lockscreenCameraEntry_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/87_launcherEdit_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/88_launcherIconSelection_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/8_ringTone3_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/90_taskCleanAll_Rtp.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/91_newIconFolder_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/92_notificationRemove_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/93_notificationCleanall_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/96_nfcCard_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/98_nfcCardSlow_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/99_POCO_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/99_POCO_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/9_ringTone4_P_RTP.bin \
     vendor/xiaomi/onyx/proprietary/odm/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/onyx/proprietary/odm/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b01 \
     vendor/xiaomi/onyx/proprietary/odm/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b02 \
@@ -1562,7 +1367,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/data/model/seg_quantized.serialized.8750.pertensor_512_cls3r.bin:$(TARGET_COPY_OUT_VENDOR)/data/model/seg_quantized.serialized.8750.pertensor_512_cls3r.bin \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ASR_binary/Whisper/speech_float.eai:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/speech_float.eai \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/haptics_data/click.pcm:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/haptics_data/click.pcm \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/haptics_data/double_click.pcm:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/haptics_data/double_click.pcm \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/haptics_data/heavy_click.pcm:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/haptics_data/heavy_click.pcm \
@@ -1686,7 +1490,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/facelandmark/weight_3_1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facelandmark/weight_3_1.dat \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/facelandmark/weight_3_2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facelandmark/weight_3_2.dat \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/itof/tuning_params_sensor_type_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/eva/itof/tuning_params_sensor_type_1.json \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/gps_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gps_diag.cfg \
@@ -1771,7 +1574,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
@@ -1824,7 +1626,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/camera_extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/camera_extensions.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/com.android.se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.se.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/vendor.hardware.vibratorfeature-permission.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.hardware.vibratorfeature-permission.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/vendor.qti.dcf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.dcf.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/onyx/proprietary/vendor/etc/pwr/GamePowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/GamePowerOptFeature.xml \
@@ -2217,7 +2018,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.bluetooth.audio-impl_prebuilt \
     android.hardware.security.keymint-V3-ndk_prebuilt \
-    android.hardware.vibrator-V1-ndk_prebuilt \
     android.media.audio.common.types-V6-ndk \
     btaudio_offload_if \
     com.mi.node.fd \
@@ -3226,7 +3026,6 @@ PRODUCT_PACKAGES += \
     vendor.display.postproc@1.0 \
     vendor.dolby.dms-V1-ndk \
     vendor.dolby.hardware.dms@2.0 \
-    vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -3783,7 +3582,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     vendor.xiaomi.hardware.micharge.xml \
     vendor.xiaomi.hardware.quickcamera.xml \
-    vendor.xiaomi.hardware.vibratorfeature.service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
     android.hardware.authsecret-service.nxp.xml \
@@ -3840,7 +3638,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2audio@1.0-service \
     vendor.xiaomi.hardware.displayfeature_aidl-service \
     vendor.xiaomi.hardware.micharge-service \
-    vendor.xiaomi.hardware.vibratorfeature.service \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \

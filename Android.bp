@@ -98,31 +98,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.vibrator-V1-ndk_prebuilt",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.vibrator-V1-ndk_prebuilt.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.media.audio.common.types-V6-ndk",
     owner: "xiaomi",
     strip: {
@@ -32042,31 +32017,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.libdpmctmgr",
     owner: "xiaomi",
     strip: {
@@ -46124,15 +46074,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "vendor.xiaomi.hardware.vibratorfeature.service.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "vendor.qti.qccsyshal_aidl-service.xml",
     owner: "xiaomi",
     src: "proprietary/system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml",
@@ -47672,47 +47613,6 @@ cc_prebuilt_binary {
                 "libutils",
                 "libbinder_ndk",
                 "vendor.xiaomi.hardware.micharge-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.xiaomi.hardware.vibratorfeature.service",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "libbase",
-                "libsoc_helper",
-                "liblog",
-                "libbinder_ndk",
-                "libtinyalsa",
-                "libhardware",
-                "libhidlbase",
-                "android.hardware.vibrator-V1-ndk_prebuilt",
-                "vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform",
-                "libmisight",
-                "android.frameworks.sensorservice@1.0",
-                "android.hardware.sensors@2.0",
-                "libpalclient",
-                "libxml2",
                 "libc++",
                 "libc",
                 "libm",
