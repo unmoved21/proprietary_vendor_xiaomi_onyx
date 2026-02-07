@@ -1976,7 +1976,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.bluetooth.audio-impl_prebuilt \
-    android.media.audio.common.types-V6-ndk \
     btaudio_offload_if \
     com.mi.node.fd \
     com.mi.node.miaihighlight \
