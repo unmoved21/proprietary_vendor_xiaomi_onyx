@@ -72,32 +72,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.security.keymint-V3-ndk_prebuilt",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.security.keymint-V3-ndk_prebuilt.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.security.secureclock-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.media.audio.common.types-V6-ndk",
     owner: "xiaomi",
     strip: {
@@ -14270,32 +14244,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcppbor_onyx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcppbor_onyx.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcrypto",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libcv_common",
     owner: "xiaomi",
     strip: {
@@ -24396,7 +24344,7 @@ cc_prebuilt_library_shared {
                 "libkeymaster_messages",
                 "android.hardware.keymaster@4.0",
                 "android.hardware.keymaster@4.1",
-                "android.hardware.security.keymint-V3-ndk_prebuilt",
+                "android.hardware.security.keymint-V3-ndk",
                 "android.hardware.security.rkp-V3-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
@@ -40814,39 +40762,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "ese_weaver",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/ese_weaver.so",
-            ],
-            shared_libs: [
-                "android.se.omapi-V1-ndk",
-                "libcutils",
-                "libjc_keymint_transport_nxp",
-                "android.hardware.secure_element-V1-ndk",
-                "libhardware",
-                "libhidlbase",
-                "libutils",
-                "liblog",
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "consumerir.qcom",
     owner: "xiaomi",
     strip: {
@@ -42189,174 +42104,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libjc_keymint-nxp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libjc_keymint-nxp.so",
-            ],
-            shared_libs: [
-                "android.hardware.security.rkp-V3-ndk",
-                "android.hardware.security.secureclock-V1-ndk",
-                "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
-                "libbase",
-                "libbinder",
-                "libcppbor_onyx",
-                "libkeymaster_portable",
-                "libkeymaster_messages",
-                "libsoft_attestation_cert",
-                "liblog",
-                "libcrypto",
-                "libcutils",
-                "libutils",
-                "libjc_keymint_transport_nxp",
-                "libbinder_ndk",
-                "libmemunreachable",
-                "android.hardware.security.keymint-V3-ndk_prebuilt",
-                "android.hardware.secure_element-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libjc_keymint_transport_nxp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libjc_keymint_transport_nxp.so",
-            ],
-            shared_libs: [
-                "android.hardware.security.keymint-V3-ndk_prebuilt",
-                "android.se.omapi-V1-ndk",
-                "android.hardware.secure_element-V1-ndk",
-                "libbase",
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libhardware",
-                "libhardware_legacy",
-                "libhidlbase",
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymint_empty-nxp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libkeymint_empty-nxp.so",
-            ],
-            shared_libs: [
-                "android.hardware.security.rkp-V3-ndk",
-                "android.hardware.security.sharedsecret-V1-ndk",
-                "android.hardware.security.keymint-V3-ndk_prebuilt",
-                "android.se.omapi-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
-                "libcppbor_onyx",
-                "libcrypto",
-                "libkeymaster_portable",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymint_empty-thales",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libkeymint_empty-thales.so",
-            ],
-            shared_libs: [
-                "android.se.omapi-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
-                "libcppbor_onyx",
-                "libcppcose_rkp",
-                "libkeymaster_portable",
-                "libsoft_attestation_cert",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymint_transport_empty-nxp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libkeymint_transport_empty-nxp.so",
-            ],
-            shared_libs: [
-                "android.hardware.secure_element@1.0",
-                "android.hardware.secure_element@1.1",
-                "android.hardware.secure_element@1.2",
-                "android.se.omapi-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmi-stc-HW-modulate",
     owner: "xiaomi",
     strip: {
@@ -43600,56 +43347,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     check_elf_files: false,
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libweaver_empty-nxp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libweaver_empty-nxp.so",
-            ],
-            shared_libs: [
-                "android.hardware.weaver-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libweaver_empty-thales",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libweaver_empty-thales.so",
-            ],
-            shared_libs: [
-                "android.hardware.weaver-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
     prefer: true,
     device_specific: true,
 }
@@ -45081,33 +44778,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.security.keymint-service.strongbox.xml",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/vintf/manifest/android.hardware.security.keymint-service.strongbox.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "android.hardware.security.sharedsecret-service.strongbox.xml",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/vintf/manifest/android.hardware.security.sharedsecret-service.strongbox.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "android.hardware.weaver-service.nxp.xml",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/vintf/manifest/android.hardware.weaver-service.nxp.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest_vendor.xiaomi.hardware.mlipay.xml",
     owner: "xiaomi",
     src: "proprietary/odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml",
@@ -45856,7 +45526,7 @@ cc_prebuilt_binary {
                 "android.hardware.keymaster@4.0",
                 "libqtikeymint",
                 "libcrypto",
-                "android.hardware.security.keymint-V3-ndk_prebuilt",
+                "android.hardware.security.keymint-V3-ndk",
                 "android.hardware.security.rkp-V3-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
@@ -48494,77 +48164,6 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "android.hardware.gnss-V4-ndk",
                 "android.hardware.gnss-aidl-impl-qti",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    device_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.security.keymint-service.strongbox-nxp",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/hw/android.hardware.security.keymint-service.strongbox-nxp",
-            ],
-            shared_libs: [
-                "android.hardware.security.rkp-V3-ndk",
-                "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
-                "android.se.omapi-V1-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "libcppbor_onyx",
-                "libcrypto",
-                "libkeymaster_portable",
-                "libjc_keymint-nxp",
-                "libjc_keymint_transport_nxp",
-                "liblog",
-                "libutils",
-                "libhidlbase",
-                "android.hardware.security.keymint-V3-ndk_prebuilt",
-                "android.hardware.secure_element-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    device_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.weaver-service.nxp-qti",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/hw/android.hardware.weaver-service.nxp-qti",
-            ],
-            shared_libs: [
-                "android.hardware.weaver-V2-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "liblog",
-                "ese_weaver",
                 "libc++",
                 "libc",
                 "libm",
