@@ -10945,52 +10945,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "lib_AIVC_decoder",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/lib_AIVC_decoder.so",
-            ],
-            shared_libs: [
-                "libm",
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "lib_AIVC_encoder",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/lib_AIVC_encoder.so",
-            ],
-            shared_libs: [
-                "libm",
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "lib_bt_lhdc",
     owner: "xiaomi",
     strip: {
@@ -21202,113 +21156,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqcodec2_psfilter",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqcodec2_psfilter.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libcodec2_vndk",
-                "libqcodec2_base",
-                "libqcodec2_utils",
-                "libqcodec2_basecodec",
-                "libqcodec2_filterbase",
-                "libqcodec2_platform",
-                "qti.video.utils.videobufferlayout",
-                "libmialgo",
-                "libstagefright_foundation",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqcodec2_rffilter",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqcodec2_rffilter.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libcodec2_vndk",
-                "libqcodec2_base",
-                "libqcodec2_utils",
-                "libqcodec2_basecodec",
-                "libqcodec2_filterbase",
-                "libqcodec2_platform",
-                "qti.video.utils.videobufferlayout",
-                "libmialgo",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqcodec2_srfilter",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqcodec2_srfilter.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libcodec2_vndk",
-                "libqcodec2_base",
-                "libqcodec2_utils",
-                "libqcodec2_basecodec",
-                "libqcodec2_filterbase",
-                "libqcodec2_platform",
-                "qti.video.utils.videobufferlayout",
-                "libmialgo",
-                "libstagefright_foundation",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqcodec2_streaminteg_filter",
     owner: "xiaomi",
     strip: {
@@ -21406,42 +21253,6 @@ cc_prebuilt_library_shared {
                 "libcodec2_vndk",
                 "libvmmem",
                 "qti.video.utils.videobufferlayout",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqcodec2_videofrcfilter",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqcodec2_videofrcfilter.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libcodec2_vndk",
-                "libqcodec2_base",
-                "libqcodec2_utils",
-                "libqcodec2_basecodec",
-                "libqcodec2_filterbase",
-                "libqcodec2_platform",
-                "qti.video.utils.videobufferlayout",
-                "vendor.qti.hardware.vpp-V1-ndk",
-                "libbinder_ndk",
                 "libc++",
                 "libc",
                 "libm",
