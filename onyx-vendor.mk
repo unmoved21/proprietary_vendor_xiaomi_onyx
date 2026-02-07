@@ -1236,7 +1236,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-xingtie.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-xingtie.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/thermalbreakboostconfig.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/dynamicrate.json:$(TARGET_COPY_OUT_ODM)/etc/touch/dynamicrate.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool-control.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-control.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool-fastinput.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-fastinput.json \
@@ -1501,7 +1500,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qlm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qlm-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
@@ -1512,7 +1510,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
@@ -1528,7 +1525,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -1540,7 +1536,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.display.composer-service_xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.composer-service_xiaomi.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.dsp-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.minkipcbinder@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.minkipcbinder@1.0-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.soter-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter-service.rc \
@@ -1560,52 +1555,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/PreKillFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PreKillFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/PrefAppsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PrefAppsFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/ProCompFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ProCompFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/QAPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QAPE.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/QGPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPE.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/QGPEActionMap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPEActionMap.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/SagtFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SagtFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/SilkyScrollsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SilkyScrollsFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/prekill/prekill_2GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_2GB.data \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/xiaomi/onyx/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/factorsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/factorsconfig.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/perfboostselection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostselection.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/qapeboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/qapeboostsconfig.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/qapeconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/qapeconfigstore.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/qapegameconfig.txt:$(TARGET_COPY_OUT_VENDOR)/etc/perf/qapegameconfig.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/thermal-boost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermal-boost.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalbreakboostconfig.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/camera_extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/camera_extensions.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/com.android.se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.se.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/vendor.qti.dcf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.dcf.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/pwr/GamePowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/GamePowerOptFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/pwr/OffScreenPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/OffScreenPowerOptFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/config/0007.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0007.0_config.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/config/0008.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0008.0_config.sql \
@@ -1632,7 +1591,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/other/0014_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0014_version_update_modules.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qlm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qlm_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
@@ -1649,7 +1607,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qesdksec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdksec.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qsap_dcfd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_dcfd.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qsap_sensors.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_sensors.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
@@ -2301,9 +2258,6 @@ PRODUCT_PACKAGES += \
     libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
-    libaodoptfeature \
-    libapengine \
-    libappclassifier \
     libar-pal \
     libarmemlog \
     libaudio_aidl_conversion_common_ndk_prebuilt \
@@ -2470,15 +2424,12 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
-    liblightninglaunches \
     liblistensoundmodel2vendor \
     liblistensoundmodelaidl \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
     liblmthermallistner \
-    liblmutils-ns \
     libloadtrusteduiapp \
     libloc_api_v02 \
     libloc_api_wds \
@@ -2509,10 +2460,7 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
-    libmemperfd \
     libmemutils \
-    libmeters-ns \
-    libmeters \
     libmfGhostDetection \
     libmfec \
     libmialgo \
@@ -2600,21 +2548,10 @@ PRODUCT_PACKAGES += \
     libpalclient \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfdb \
-    libperfioctl \
     libperipheral_client \
     libpostprocinfo \
-    libpowercore \
-    libprefapps \
-    libprekill \
-    libprocomp \
     libproj_qmot_tracker \
     libproj_sot \
-    libpsmoptfeature \
-    libq-perflog \
-    libqape_oem_ext \
-    libqapesdk \
     libqasr \
     libqc2audio_base \
     libqc2audio_basecodec \
@@ -2700,17 +2637,7 @@ PRODUCT_PACKAGES += \
     libqshcamera \
     libqsocket \
     libqspm-mem-utils-vendor \
-    libqti-appclassifier \
-    libqti-lllite \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-perfextn-intf \
     libqti-qesdk-secure \
-    libqti-s3tf \
-    libqti-scenariod \
-    libqti-sslite \
-    libqti-util \
-    libqti-utils \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
@@ -2724,7 +2651,6 @@ PRODUCT_PACKAGES += \
     libril-qc-radioconfig \
     librilqmimiscservices \
     librpmb \
-    libsagt \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -2749,10 +2675,8 @@ PRODUCT_PACKAGES += \
     libshadowhook \
     libshsc \
     libsi \
-    libsilkyscrolls \
     libsiminputgenutil \
     libsimulation \
-    libskewknob \
     libslimclient \
     libsmemlog \
     libsn220u_fw \
@@ -2775,10 +2699,8 @@ PRODUCT_PACKAGES += \
     libspukeymintdeviceutils \
     libspukeymintprovision \
     libspukeymintutils \
-    libsrc_jni_getPasrService \
     libssc_default_listener \
     libssd \
-    libstandbyfeature \
     libstnfc-streset \
     libsubsystem_control \
     libswregistrationalgo \
@@ -2968,8 +2890,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.hexlp-V1-ndk \
     vendor.qti.hardware.minkipcbinder-V1-ndk \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
-    vendor.qti.hardware.perf2-V1-ndk \
-    vendor.qti.hardware.power.powermodule-V1-ndk \
     vendor.qti.hardware.qasr-V2-ndk \
     vendor.qti.hardware.qconfig-V1-ndk \
     vendor.qti.hardware.qdutils_disp@1.0 \
@@ -3046,7 +2966,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
     vendor.qti.latencyaidlservice-V1-ndk \
-    vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.qccsyshal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
@@ -3434,8 +3353,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp-service.xml \
     vendor.qti.hardware.hexlp-service.xml \
     vendor.qti.hardware.minkipcbinder-service.xml \
-    vendor.qti.hardware.perf2.xml \
-    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
     vendor.qti.hardware.radio.ims.xml \
@@ -3497,7 +3414,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.color-service \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.minkipcbinder@1.0-service \
-    vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.sensorscalibrate-service \
     vendor.qti.hardware.soter-service \
@@ -3527,20 +3443,17 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
-    poweropt-service \
     ppd \
     qcc-vendor \
     qdcmss \
     qesdk-manager \
     qesdk-secmanager \
-    qlm-service \
     qmipriod \
     qms \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
     qsap_dcfd \
-    qsap_qapeservice \
     qsap_sensors \
     qseecomd \
     qti \
