@@ -2298,6 +2298,7 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
     libaodoptfeature \
