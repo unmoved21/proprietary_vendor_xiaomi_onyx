@@ -1050,7 +1050,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o10u_36_02_0b_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o10u_36_02_0b_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o10u_42_02_0a_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o10u_42_02_0a_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.authsecret-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.authsecret-service.nxp.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.weaver-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.weaver-service.nxp.rc \
@@ -3331,7 +3330,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_hdr_grf \
     libarcsoft_turbo_hdr_raw \
     libaudioroute_ext \
-    libauthsecret_empty-nxp \
     libawcal \
     libcamera_scene \
     libcameraheif \
@@ -3526,7 +3524,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.quickcamera.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
-    android.hardware.authsecret-service.nxp.xml \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.security.keymint-service.strongbox.xml \
     android.hardware.security.sharedsecret-service.strongbox.xml \
@@ -3645,7 +3642,6 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     qccsyshal_aidl-service \
     wfdservice64 \
-    android.hardware.authsecret-service.nxp-qti \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.security.keymint-service.strongbox-nxp \
     android.hardware.weaver-service.nxp-qti \
