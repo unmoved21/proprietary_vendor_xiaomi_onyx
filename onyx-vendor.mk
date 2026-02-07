@@ -1323,8 +1323,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/firmware/o10u_nova_tm_thp_config.ini:$(TARGET_COPY_OUT_ODM)/firmware/o10u_nova_tm_thp_config.ini \
     vendor/xiaomi/onyx/proprietary/odm/firmware/sipa.bin:$(TARGET_COPY_OUT_ODM)/firmware/sipa.bin \
     vendor/xiaomi/onyx/proprietary/odm/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_2v.mbn \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu33_4v.mbn \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/vpu35_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu35_4v.mbn \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/aon_front_i_1.pb:$(TARGET_COPY_OUT_ODM)/lib64/camera/aon_front_i_1.pb \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_aac_ov08f_ultra_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_aac_ov08f_ultra_i.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_aac_ov20b40_front_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_aac_ov20b40_front_i.bin \
