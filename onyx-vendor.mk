@@ -2823,7 +2823,6 @@ PRODUCT_PACKAGES += \
     libdownmixaidl \
     libdynamicsprocessingaidl \
     libloudnessenhanceraidl \
-    liblvacfsprocessingaidl \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \

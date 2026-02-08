@@ -28496,51 +28496,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liblvacfsprocessingaidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/liblvacfsprocessingaidl.so",
-            ],
-            shared_libs: [
-                "android.media.audio.common.types-V6-ndk",
-                "android.hardware.audio.effect-V3-ndk",
-                "libalsautilsv2",
-                "libaudio_aidl_conversion_common_ndk",
-                "libnbaio_mono",
-                "libmedia_helper",
-                "libstagefright_foundation",
-                "libtinyalsav2",
-                "libxml2",
-                "android.hardware.common-V2-ndk",
-                "android.hardware.common.fmq-V1-ndk",
-                "liblog",
-                "libaudioutils",
-                "libav_lvacfsencoder",
-                "libaudioaidlcommon",
-                "libbase",
-                "libbinder_ndk",
-                "libcutils",
-                "libfmq",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqcompostprocbundle",
     owner: "xiaomi",
     strip: {
