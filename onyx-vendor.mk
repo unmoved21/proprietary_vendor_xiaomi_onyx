@@ -2684,10 +2684,6 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libspcom \
     libspl \
-    libspukeymint \
-    libspukeymintdeviceutils \
-    libspukeymintprovision \
-    libspukeymintutils \
     libssc_default_listener \
     libssd \
     libstnfc-streset \
