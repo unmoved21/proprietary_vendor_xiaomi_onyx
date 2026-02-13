@@ -1437,13 +1437,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/formats.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/formats.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/graphics_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/graphics_alignments.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/pipe_config_DPU11__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/pipe_config_DPU11__.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_2x_y1280x720.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_2x_y1280x720.dlc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_2x_y720x1280.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_2x_y720x1280.dlc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_3x_y544x960.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_3x_y544x960.dlc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_3x_y960x544.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_3x_y960x544.dlc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_4x_y544x544.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_4x_y544x544.dlc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_5x_y384x640.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_5x_y384x640.dlc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_5x_y640x384.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_5x_y640x384.dlc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8750_sr_1x_y1280x720.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8750_sr_1x_y1280x720.dlc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8750_sr_1x_y544x960.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8750_sr_1x_y544x960.dlc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8750_sr_1x_y720x1280.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8750_sr_1x_y720x1280.dlc \
