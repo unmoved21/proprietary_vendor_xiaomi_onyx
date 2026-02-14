@@ -3261,6 +3261,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     AtFwd2 \
+    FrameworksUtilsSysService \
     PowerOffAlarm \
     QCC \
     QdcmFF \
