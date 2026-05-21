@@ -118,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/cameradfx_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameradfx_config.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/cameraopt.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_perf.json \
+    vendor/xiaomi/onyx/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/camerascene.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerascene.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/com.xiaomi.dcal.w_07.u_10.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.w_07.u_10.golden \
@@ -3304,7 +3305,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    TxPwrAdmin \
     com.qualcomm.qti.gpudrivers.sun.api35 \
     uimgbaservice \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
@@ -3313,7 +3313,6 @@ PRODUCT_PACKAGES += \
     FrameworksUtilsSysService \
     PowerOffAlarm \
     QCC \
-    QdcmFF \
     QtiTelephonyService \
     QtiTelephony \
     WfdService \

@@ -549,6 +549,3 @@ SupportSencondSupplyOIS=TRUE
 
 #Health Monitor
 enableHealthMonitor=FALSE
-
-#SupportThirdBeauty
-SupportThirdBeauty=FALSE
