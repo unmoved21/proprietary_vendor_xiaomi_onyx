@@ -3032,7 +3032,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.camera.synthetic-V1-ndk \
     vendor.xiaomi.hardware.camera.synthetic-impl \
     vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
-    vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk \
     vendor.xiaomi.hardware.videoservice-V7-ndk \
