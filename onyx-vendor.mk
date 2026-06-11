@@ -1328,16 +1328,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/firmware/sipa.bin:$(TARGET_COPY_OUT_ODM)/firmware/sipa.bin \
     vendor/xiaomi/onyx/proprietary/odm/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_2v.mbn \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/aon_front_i_1.pb:$(TARGET_COPY_OUT_ODM)/lib64/camera/aon_front_i_1.pb \
+    vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_aac_imx882_wide_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_aac_imx882_wide_ii.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_aac_ov08f_ultra_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_aac_ov08f_ultra_i.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_aac_ov20b40_front_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_aac_ov20b40_front_i.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_ofilm_imx882_wide_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_ofilm_imx882_wide_i.bin \
+    vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_sunny_ov08f_ultra_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_sunny_ov08f_ultra_ii.bin \
+    vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_sunny_ov20b40_front_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_sunny_ov20b40_front_ii.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_aac_imx882_wide_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_aac_imx882_wide_ii.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_aac_ov08f_ultra_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_aac_ov08f_ultra_i.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_aac_ov08f_ultra_i_in.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_aac_ov08f_ultra_i_in.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_aac_ov20b40_front_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_aac_ov20b40_front_i.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_aac_ov20b40_front_i_in.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_aac_ov20b40_front_i_in.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i_in.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i_in.bin \
+    vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_sunny_ov08f_ultra_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_sunny_ov08f_ultra_ii.bin \
+    vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_sunny_ov20b40_front_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_sunny_ov20b40_front_ii.bin \
     vendor/xiaomi/onyx/proprietary/odm/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/etc/dolby_vision.cfg \
     vendor/xiaomi/onyx/proprietary/odm/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/persist/display/dolby_vision.cfg \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
