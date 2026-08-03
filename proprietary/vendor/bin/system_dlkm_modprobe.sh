@@ -14,7 +14,7 @@ MODPROBE="/vendor/bin/modprobe"
 # system_dlkm will have both OKI & GKI modules, try to load all the modules in system_dlkm
 for system_dlkm_dir in ${SYSTEM_DLKM_DIRS} ;
 do
-	for kernel_ver_dir in ${system_dlkm_dir}/*;
+	for kernel_ver_dir in ${system_dlkm_dir} ${system_dlkm_dir}/*;
 	do
 		# Try load all the possible kernel modules.
 		# Directory structure: /system_dlkm/lib/modules/${KERNEL_VERSION}/modules.load
