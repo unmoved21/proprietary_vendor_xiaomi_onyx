@@ -44832,6 +44832,14 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.qcrild",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qcrild.sh",
+    filename: "init.qcrild.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.qti.kernel",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.kernel.sh",
