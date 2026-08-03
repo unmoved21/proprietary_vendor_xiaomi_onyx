@@ -3203,7 +3203,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.zsl.nightmotionzslbanding \
     com.xiaomi.zsl.single \
     com.xiaomi.zsl.sr \
-    consumerir.qcom \
     displayfeature.default \
     fingerprint.goodix_fod.default \
     fingerprint.jiiov.default \
