@@ -1350,6 +1350,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
+    vendor/xiaomi/onyx/proprietary/recovery/root/lib/firmware/o10u/novatek_nt38771_o10u_fw_csot.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/o10u/novatek_nt38771_o10u_fw_csot.bin \
+    vendor/xiaomi/onyx/proprietary/recovery/root/lib/firmware/o10u/novatek_nt38771_o10u_fw_tm.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/o10u/novatek_nt38771_o10u_fw_tm.bin \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/bin/touch_report_debug:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/bin/touch_report_debug \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/odm/firmware/o10u_nova_csot_thp_config.ini:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/firmware/o10u_nova_csot_thp_config.ini \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/odm/firmware/o10u_nova_tm_thp_config.ini:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/firmware/o10u_nova_tm_thp_config.ini \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/odm/lib64/libtensorflowlite_touch_c.so:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/lib64/libtensorflowlite_touch_c.so \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/odm/lib64/libtouchreport.so:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/lib64/libtouchreport.so \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/odm/lib64/libtouchreport_alg.so:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/lib64/libtouchreport_alg.so \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/odm/lib64/libtouchreport_hal.so:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/lib64/libtouchreport_hal.so \
+    vendor/xiaomi/onyx/proprietary/recovery/root/vendor/odm/lib64/libtouchreport_sensor.so:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/lib64/libtouchreport_sensor.so \
     vendor/xiaomi/onyx/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
