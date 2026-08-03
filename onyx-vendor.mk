@@ -1514,7 +1514,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hlosminkdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hlosminkdaemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
@@ -3481,7 +3480,6 @@ PRODUCT_PACKAGES += \
     imsdaemon \
     init.qcom.sensors \
     init.qcrild \
-    init.qti.kernel \
     init.qti.media \
     init.qti.qcv \
     init.qti.write \
