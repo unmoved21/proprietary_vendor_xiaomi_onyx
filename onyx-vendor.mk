@@ -2867,24 +2867,14 @@ PRODUCT_PACKAGES += \
     libvpt_action_recognition \
     libworker_pool \
     sensors.qsh \
-    libbundleaidl \
     libdlbvolaidl \
-    libdownmixaidl \
-    libdynamicsprocessingaidl \
     libhwdapaidl \
-    libloudnessenhanceraidl \
     liblvacfsprocessingaidl \
     libmiwndnsprocessingaidl \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libquasar \
-    libreverbaidl \
     libspatializeraidl \
     libswgamedapaidl \
     libswspatializeraidl \
-    libvisualizeraidl \
-    libvolumelistener \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \

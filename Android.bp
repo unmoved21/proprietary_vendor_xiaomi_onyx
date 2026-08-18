@@ -29182,26 +29182,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libbundleaidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libbundleaidl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libdlbvolaidl",
     owner: "xiaomi",
     strip: {
@@ -29222,46 +29202,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdownmixaidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libdownmixaidl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libdynamicsprocessingaidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libdynamicsprocessingaidl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libhwdapaidl",
     owner: "xiaomi",
     strip: {
@@ -29271,26 +29211,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/soundfx/libhwdapaidl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libloudnessenhanceraidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libloudnessenhanceraidl.so",
             ],
         },
     },
@@ -29367,66 +29287,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqcompostprocbundle",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqcomvisualizer",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libqcomvisualizer.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqcomvoiceprocessing",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libquasar",
     owner: "xiaomi",
     strip: {
@@ -29436,26 +29296,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/soundfx/libquasar.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libreverbaidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libreverbaidl.so",
             ],
         },
     },
@@ -29516,46 +29356,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/soundfx/libswspatializeraidl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvisualizeraidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libvisualizeraidl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvolumelistener",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libvolumelistener.so",
             ],
         },
     },
