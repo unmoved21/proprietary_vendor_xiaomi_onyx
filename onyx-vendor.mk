@@ -1717,6 +1717,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/android.media.audio.common.types-V6-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.audio.common.types-V6-ndk.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/bm5a73v04s13n00.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a73v04s13n00.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/bm5a73v04s13n01.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a73v04s13n01.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/bm5a73v04s13n02.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a73v04s13n02.bin \
@@ -1939,7 +1940,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.bluetooth.audio-impl_prebuilt \
-    android.media.audio.common.types-V6-ndk \
     btaudio_offload_if \
     com.mi.node.fd \
     com.mi.node.miaihighlight \
